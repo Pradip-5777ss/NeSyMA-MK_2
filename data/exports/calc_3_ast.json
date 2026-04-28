@@ -1,0 +1,901 @@
+{
+    "id": "ddd24810-f076-41d5-9133-f68d4b7fb2a7",
+    "type": "module",
+    "text": "def calculate_factorial(n):\n    if n < 0:\n        return None\n    result = 1\n    i = 1\n    while i <= n:\n        result = result * i\n        i += 1\n    return result\n\nif __name__ == \"__main__\":\n    fact = calculate_factorial(5)\n    print(\"Factorial of 5:\", fact)\n",
+    "start": [
+        0,
+        0
+    ],
+    "end": [
+        13,
+        0
+    ],
+    "children": [
+        {
+            "id": "0c354677-f487-44c1-8a84-4c017f8f5434",
+            "type": "function_definition",
+            "text": "def calculate_factorial(n):\n    if n < 0:\n        return None\n    result = 1\n    i = 1\n    while i <= n:\n        result = result * i\n        i += 1\n    return result",
+            "start": [
+                0,
+                0
+            ],
+            "end": [
+                8,
+                17
+            ],
+            "children": [
+                {
+                    "id": "f4dfd58e-1f1d-421a-a88f-225c9f1187a5",
+                    "type": "identifier",
+                    "text": "calculate_factorial",
+                    "start": [
+                        0,
+                        4
+                    ],
+                    "end": [
+                        0,
+                        23
+                    ],
+                    "children": []
+                },
+                {
+                    "id": "63611616-b74c-450d-814a-6cb369f404da",
+                    "type": "parameters",
+                    "text": "(n)",
+                    "start": [
+                        0,
+                        23
+                    ],
+                    "end": [
+                        0,
+                        26
+                    ],
+                    "children": [
+                        {
+                            "id": "1302c5f3-2b77-49d2-a245-e780b01a11d5",
+                            "type": "identifier",
+                            "text": "n",
+                            "start": [
+                                0,
+                                24
+                            ],
+                            "end": [
+                                0,
+                                25
+                            ],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "398d67d8-48dd-483b-b6a4-607ba57913fc",
+                    "type": "block",
+                    "text": "if n < 0:\n        return None\n    result = 1\n    i = 1\n    while i <= n:\n        result = result * i\n        i += 1\n    return result",
+                    "start": [
+                        1,
+                        4
+                    ],
+                    "end": [
+                        8,
+                        17
+                    ],
+                    "children": [
+                        {
+                            "id": "df3a5eda-7729-4ba2-b08c-e3a08d5cd9f6",
+                            "type": "if_statement",
+                            "text": "if n < 0:\n        return None",
+                            "start": [
+                                1,
+                                4
+                            ],
+                            "end": [
+                                2,
+                                19
+                            ],
+                            "children": [
+                                {
+                                    "id": "33babfc3-7a1f-47e6-8bb7-92d51a9e6aab",
+                                    "type": "comparison_operator",
+                                    "text": "n < 0",
+                                    "start": [
+                                        1,
+                                        7
+                                    ],
+                                    "end": [
+                                        1,
+                                        12
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "202bb460-10a8-4655-b1b1-075167a01fc3",
+                                            "type": "identifier",
+                                            "text": "n",
+                                            "start": [
+                                                1,
+                                                7
+                                            ],
+                                            "end": [
+                                                1,
+                                                8
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "341914de-eb98-4d15-9648-54765e0bfb28",
+                                            "type": "integer",
+                                            "text": "0",
+                                            "start": [
+                                                1,
+                                                11
+                                            ],
+                                            "end": [
+                                                1,
+                                                12
+                                            ],
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "dbad5864-5816-4ded-bb42-8cfa502b534c",
+                                    "type": "block",
+                                    "text": "return None",
+                                    "start": [
+                                        2,
+                                        8
+                                    ],
+                                    "end": [
+                                        2,
+                                        19
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "e2b6c9fd-109f-461a-9217-3ce7ccc53eed",
+                                            "type": "return_statement",
+                                            "text": "return None",
+                                            "start": [
+                                                2,
+                                                8
+                                            ],
+                                            "end": [
+                                                2,
+                                                19
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "cf6dcb30-bead-4d6d-a2e0-33769ebd5352",
+                                                    "type": "none",
+                                                    "text": "None",
+                                                    "start": [
+                                                        2,
+                                                        15
+                                                    ],
+                                                    "end": [
+                                                        2,
+                                                        19
+                                                    ],
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "bde04091-cc98-4c95-ad58-d4015e01a3eb",
+                            "type": "expression_statement",
+                            "text": "result = 1",
+                            "start": [
+                                3,
+                                4
+                            ],
+                            "end": [
+                                3,
+                                14
+                            ],
+                            "children": [
+                                {
+                                    "id": "fa77fe9f-cb1a-4fd6-8c4e-b53946e8bd29",
+                                    "type": "assignment",
+                                    "text": "result = 1",
+                                    "start": [
+                                        3,
+                                        4
+                                    ],
+                                    "end": [
+                                        3,
+                                        14
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "e939c470-ddca-4af9-91e4-cd59bd342df0",
+                                            "type": "identifier",
+                                            "text": "result",
+                                            "start": [
+                                                3,
+                                                4
+                                            ],
+                                            "end": [
+                                                3,
+                                                10
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "94221c03-ffee-4a51-bad2-15b6f529bd60",
+                                            "type": "integer",
+                                            "text": "1",
+                                            "start": [
+                                                3,
+                                                13
+                                            ],
+                                            "end": [
+                                                3,
+                                                14
+                                            ],
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "60ae10e7-cca4-4bd1-80f0-574b7304a711",
+                            "type": "expression_statement",
+                            "text": "i = 1",
+                            "start": [
+                                4,
+                                4
+                            ],
+                            "end": [
+                                4,
+                                9
+                            ],
+                            "children": [
+                                {
+                                    "id": "434442fb-8774-4d31-ab52-0be3ded89a06",
+                                    "type": "assignment",
+                                    "text": "i = 1",
+                                    "start": [
+                                        4,
+                                        4
+                                    ],
+                                    "end": [
+                                        4,
+                                        9
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "e7aaca03-127a-4c17-9fbd-ed1858b3e5ae",
+                                            "type": "identifier",
+                                            "text": "i",
+                                            "start": [
+                                                4,
+                                                4
+                                            ],
+                                            "end": [
+                                                4,
+                                                5
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "bfd0df09-e4ba-40aa-a1a5-6fe2d6a4d579",
+                                            "type": "integer",
+                                            "text": "1",
+                                            "start": [
+                                                4,
+                                                8
+                                            ],
+                                            "end": [
+                                                4,
+                                                9
+                                            ],
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "857d2a8a-2ff8-4761-b9d0-886b9482abdb",
+                            "type": "while_statement",
+                            "text": "while i <= n:\n        result = result * i\n        i += 1",
+                            "start": [
+                                5,
+                                4
+                            ],
+                            "end": [
+                                7,
+                                14
+                            ],
+                            "children": [
+                                {
+                                    "id": "497332ae-4abe-4e7b-b3d6-721485f127fe",
+                                    "type": "comparison_operator",
+                                    "text": "i <= n",
+                                    "start": [
+                                        5,
+                                        10
+                                    ],
+                                    "end": [
+                                        5,
+                                        16
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "c5b233c8-71b7-40e7-8052-3352f4aab85c",
+                                            "type": "identifier",
+                                            "text": "i",
+                                            "start": [
+                                                5,
+                                                10
+                                            ],
+                                            "end": [
+                                                5,
+                                                11
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "c15b06ec-7c45-4bf6-94e8-ef92f8f37316",
+                                            "type": "identifier",
+                                            "text": "n",
+                                            "start": [
+                                                5,
+                                                15
+                                            ],
+                                            "end": [
+                                                5,
+                                                16
+                                            ],
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "5ddc0bba-028c-4769-b620-e92e8ab385ad",
+                                    "type": "block",
+                                    "text": "result = result * i\n        i += 1",
+                                    "start": [
+                                        6,
+                                        8
+                                    ],
+                                    "end": [
+                                        7,
+                                        14
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "69c7b82f-80d1-4cbc-9928-6c30aaf8da3e",
+                                            "type": "expression_statement",
+                                            "text": "result = result * i",
+                                            "start": [
+                                                6,
+                                                8
+                                            ],
+                                            "end": [
+                                                6,
+                                                27
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "d110cd24-f45b-45c8-8056-7ae092260f30",
+                                                    "type": "assignment",
+                                                    "text": "result = result * i",
+                                                    "start": [
+                                                        6,
+                                                        8
+                                                    ],
+                                                    "end": [
+                                                        6,
+                                                        27
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "2355f190-b83d-4d4f-ba49-66b301e50179",
+                                                            "type": "identifier",
+                                                            "text": "result",
+                                                            "start": [
+                                                                6,
+                                                                8
+                                                            ],
+                                                            "end": [
+                                                                6,
+                                                                14
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "4f349230-ff9c-4dbc-b47a-e09e880f5659",
+                                                            "type": "binary_operator",
+                                                            "text": "result * i",
+                                                            "start": [
+                                                                6,
+                                                                17
+                                                            ],
+                                                            "end": [
+                                                                6,
+                                                                27
+                                                            ],
+                                                            "children": [
+                                                                {
+                                                                    "id": "b30abf52-4627-4aec-9d87-b360e8257f1c",
+                                                                    "type": "identifier",
+                                                                    "text": "result",
+                                                                    "start": [
+                                                                        6,
+                                                                        17
+                                                                    ],
+                                                                    "end": [
+                                                                        6,
+                                                                        23
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "c01d6ee9-5ea5-4035-80a6-2eb96f0d3051",
+                                                                    "type": "identifier",
+                                                                    "text": "i",
+                                                                    "start": [
+                                                                        6,
+                                                                        26
+                                                                    ],
+                                                                    "end": [
+                                                                        6,
+                                                                        27
+                                                                    ],
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "7fa9e704-f6f3-4906-aa57-6962f3f585fe",
+                                            "type": "expression_statement",
+                                            "text": "i += 1",
+                                            "start": [
+                                                7,
+                                                8
+                                            ],
+                                            "end": [
+                                                7,
+                                                14
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "6306a825-6349-4260-8fa0-08a06af463c0",
+                                                    "type": "augmented_assignment",
+                                                    "text": "i += 1",
+                                                    "start": [
+                                                        7,
+                                                        8
+                                                    ],
+                                                    "end": [
+                                                        7,
+                                                        14
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "cdcc7098-44c2-4c95-a4c4-397de56aff73",
+                                                            "type": "identifier",
+                                                            "text": "i",
+                                                            "start": [
+                                                                7,
+                                                                8
+                                                            ],
+                                                            "end": [
+                                                                7,
+                                                                9
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "a2925648-5323-459b-b987-a0a2492681bc",
+                                                            "type": "integer",
+                                                            "text": "1",
+                                                            "start": [
+                                                                7,
+                                                                13
+                                                            ],
+                                                            "end": [
+                                                                7,
+                                                                14
+                                                            ],
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80201deb-4d4a-4144-997f-e27b1aeddcc7",
+                            "type": "return_statement",
+                            "text": "return result",
+                            "start": [
+                                8,
+                                4
+                            ],
+                            "end": [
+                                8,
+                                17
+                            ],
+                            "children": [
+                                {
+                                    "id": "a0ff67d7-d673-467c-8822-4766f38f3ea9",
+                                    "type": "identifier",
+                                    "text": "result",
+                                    "start": [
+                                        8,
+                                        11
+                                    ],
+                                    "end": [
+                                        8,
+                                        17
+                                    ],
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "6652b653-9641-4cd5-9be1-1627453385cf",
+            "type": "if_statement",
+            "text": "if __name__ == \"__main__\":\n    fact = calculate_factorial(5)\n    print(\"Factorial of 5:\", fact)",
+            "start": [
+                10,
+                0
+            ],
+            "end": [
+                12,
+                34
+            ],
+            "children": [
+                {
+                    "id": "17fb72a2-24ca-4319-b1b4-cce2f6d9a4bd",
+                    "type": "comparison_operator",
+                    "text": "__name__ == \"__main__\"",
+                    "start": [
+                        10,
+                        3
+                    ],
+                    "end": [
+                        10,
+                        25
+                    ],
+                    "children": [
+                        {
+                            "id": "35794c77-c845-4180-8130-d850aff4d6af",
+                            "type": "identifier",
+                            "text": "__name__",
+                            "start": [
+                                10,
+                                3
+                            ],
+                            "end": [
+                                10,
+                                11
+                            ],
+                            "children": []
+                        },
+                        {
+                            "id": "e7560738-7755-4e7e-9697-7ecb0488b25b",
+                            "type": "string",
+                            "text": "\"__main__\"",
+                            "start": [
+                                10,
+                                15
+                            ],
+                            "end": [
+                                10,
+                                25
+                            ],
+                            "children": [
+                                {
+                                    "id": "34251ce8-c915-446e-82a4-ae5465743d27",
+                                    "type": "string_start",
+                                    "text": "\"",
+                                    "start": [
+                                        10,
+                                        15
+                                    ],
+                                    "end": [
+                                        10,
+                                        16
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "id": "0cfbe412-70fe-4bc0-8987-927052d1c805",
+                                    "type": "string_content",
+                                    "text": "__main__",
+                                    "start": [
+                                        10,
+                                        16
+                                    ],
+                                    "end": [
+                                        10,
+                                        24
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "id": "69504964-e537-439c-a5a1-98560d199191",
+                                    "type": "string_end",
+                                    "text": "\"",
+                                    "start": [
+                                        10,
+                                        24
+                                    ],
+                                    "end": [
+                                        10,
+                                        25
+                                    ],
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "1727ffa8-59bd-4563-8be9-732f5e42f8e7",
+                    "type": "block",
+                    "text": "fact = calculate_factorial(5)\n    print(\"Factorial of 5:\", fact)",
+                    "start": [
+                        11,
+                        4
+                    ],
+                    "end": [
+                        12,
+                        34
+                    ],
+                    "children": [
+                        {
+                            "id": "e754c6a4-1fa9-40b3-9c05-6db6be38edcc",
+                            "type": "expression_statement",
+                            "text": "fact = calculate_factorial(5)",
+                            "start": [
+                                11,
+                                4
+                            ],
+                            "end": [
+                                11,
+                                33
+                            ],
+                            "children": [
+                                {
+                                    "id": "b09b2158-8466-4228-9ded-c4f50dabcb9f",
+                                    "type": "assignment",
+                                    "text": "fact = calculate_factorial(5)",
+                                    "start": [
+                                        11,
+                                        4
+                                    ],
+                                    "end": [
+                                        11,
+                                        33
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "220e003f-b59b-4b04-a8c1-20ff585e790d",
+                                            "type": "identifier",
+                                            "text": "fact",
+                                            "start": [
+                                                11,
+                                                4
+                                            ],
+                                            "end": [
+                                                11,
+                                                8
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "14eb29bf-adef-4a7f-b452-95f91f9c2942",
+                                            "type": "call",
+                                            "text": "calculate_factorial(5)",
+                                            "start": [
+                                                11,
+                                                11
+                                            ],
+                                            "end": [
+                                                11,
+                                                33
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "a35f6817-12cf-449e-8e2f-a5ed0e207811",
+                                                    "type": "identifier",
+                                                    "text": "calculate_factorial",
+                                                    "start": [
+                                                        11,
+                                                        11
+                                                    ],
+                                                    "end": [
+                                                        11,
+                                                        30
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "id": "db12fef2-eb90-4d4d-b8ab-c6aa7d110652",
+                                                    "type": "argument_list",
+                                                    "text": "(5)",
+                                                    "start": [
+                                                        11,
+                                                        30
+                                                    ],
+                                                    "end": [
+                                                        11,
+                                                        33
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "fae641b7-793a-451c-91d7-b403f0dc634a",
+                                                            "type": "integer",
+                                                            "text": "5",
+                                                            "start": [
+                                                                11,
+                                                                31
+                                                            ],
+                                                            "end": [
+                                                                11,
+                                                                32
+                                                            ],
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "37eaaf20-ab7d-44d2-abbd-66746615ca4f",
+                            "type": "expression_statement",
+                            "text": "print(\"Factorial of 5:\", fact)",
+                            "start": [
+                                12,
+                                4
+                            ],
+                            "end": [
+                                12,
+                                34
+                            ],
+                            "children": [
+                                {
+                                    "id": "d2400da1-a2db-450d-acd1-45f5b36b4918",
+                                    "type": "call",
+                                    "text": "print(\"Factorial of 5:\", fact)",
+                                    "start": [
+                                        12,
+                                        4
+                                    ],
+                                    "end": [
+                                        12,
+                                        34
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "2d28392d-63c2-48fc-a370-5acecf0dde61",
+                                            "type": "identifier",
+                                            "text": "print",
+                                            "start": [
+                                                12,
+                                                4
+                                            ],
+                                            "end": [
+                                                12,
+                                                9
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "b39760ef-42a7-47f0-8f24-08d4b873bdd6",
+                                            "type": "argument_list",
+                                            "text": "(\"Factorial of 5:\", fact)",
+                                            "start": [
+                                                12,
+                                                9
+                                            ],
+                                            "end": [
+                                                12,
+                                                34
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "8c345f1a-3a73-44b9-9dcb-428a5914b995",
+                                                    "type": "string",
+                                                    "text": "\"Factorial of 5:\"",
+                                                    "start": [
+                                                        12,
+                                                        10
+                                                    ],
+                                                    "end": [
+                                                        12,
+                                                        27
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "d8b4ff91-0c90-41c0-b5a5-bd5428abc241",
+                                                            "type": "string_start",
+                                                            "text": "\"",
+                                                            "start": [
+                                                                12,
+                                                                10
+                                                            ],
+                                                            "end": [
+                                                                12,
+                                                                11
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "f5e16488-41e1-4721-adda-00fc0f8aa5fd",
+                                                            "type": "string_content",
+                                                            "text": "Factorial of 5:",
+                                                            "start": [
+                                                                12,
+                                                                11
+                                                            ],
+                                                            "end": [
+                                                                12,
+                                                                26
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "962be7f4-a03c-4b15-a263-20537128767c",
+                                                            "type": "string_end",
+                                                            "text": "\"",
+                                                            "start": [
+                                                                12,
+                                                                26
+                                                            ],
+                                                            "end": [
+                                                                12,
+                                                                27
+                                                            ],
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "40546b99-c04e-4cca-83ff-c57bd03f6e9b",
+                                                    "type": "identifier",
+                                                    "text": "fact",
+                                                    "start": [
+                                                        12,
+                                                        29
+                                                    ],
+                                                    "end": [
+                                                        12,
+                                                        33
+                                                    ],
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

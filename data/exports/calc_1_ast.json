@@ -1,0 +1,667 @@
+{
+    "id": "ecd6e3fc-014a-414e-99a5-d9e5e59bb6c9",
+    "type": "module",
+    "text": "def calculate_total(price, tax_rate):\n    tax = price * tax_rate\n    total = price + tax\n    return total\n\nif __name__ == \"__main__\":\n    result = calculate_total(100.0, 0.15)\n    print(\"Total:\", result)\n",
+    "start": [
+        0,
+        0
+    ],
+    "end": [
+        8,
+        0
+    ],
+    "children": [
+        {
+            "id": "ace91752-9557-4380-8147-d37a7a17411a",
+            "type": "function_definition",
+            "text": "def calculate_total(price, tax_rate):\n    tax = price * tax_rate\n    total = price + tax\n    return total",
+            "start": [
+                0,
+                0
+            ],
+            "end": [
+                3,
+                16
+            ],
+            "children": [
+                {
+                    "id": "56f67cbf-fc8f-4255-87a0-394e9e2e619e",
+                    "type": "identifier",
+                    "text": "calculate_total",
+                    "start": [
+                        0,
+                        4
+                    ],
+                    "end": [
+                        0,
+                        19
+                    ],
+                    "children": []
+                },
+                {
+                    "id": "9b391e08-32e1-410d-b8f6-30a8c0941484",
+                    "type": "parameters",
+                    "text": "(price, tax_rate)",
+                    "start": [
+                        0,
+                        19
+                    ],
+                    "end": [
+                        0,
+                        36
+                    ],
+                    "children": [
+                        {
+                            "id": "93a517b7-7502-47b9-af16-4e473be8894e",
+                            "type": "identifier",
+                            "text": "price",
+                            "start": [
+                                0,
+                                20
+                            ],
+                            "end": [
+                                0,
+                                25
+                            ],
+                            "children": []
+                        },
+                        {
+                            "id": "caca6889-5a69-4a14-bc75-020fc549ecb8",
+                            "type": "identifier",
+                            "text": "tax_rate",
+                            "start": [
+                                0,
+                                27
+                            ],
+                            "end": [
+                                0,
+                                35
+                            ],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "fc5cbb9c-be5e-4a10-9ff5-82f44966d153",
+                    "type": "block",
+                    "text": "tax = price * tax_rate\n    total = price + tax\n    return total",
+                    "start": [
+                        1,
+                        4
+                    ],
+                    "end": [
+                        3,
+                        16
+                    ],
+                    "children": [
+                        {
+                            "id": "a3d4eda7-be78-48e8-abc7-b76071cbce3d",
+                            "type": "expression_statement",
+                            "text": "tax = price * tax_rate",
+                            "start": [
+                                1,
+                                4
+                            ],
+                            "end": [
+                                1,
+                                26
+                            ],
+                            "children": [
+                                {
+                                    "id": "6717aaf1-a5ba-4172-8cea-32e9133f3930",
+                                    "type": "assignment",
+                                    "text": "tax = price * tax_rate",
+                                    "start": [
+                                        1,
+                                        4
+                                    ],
+                                    "end": [
+                                        1,
+                                        26
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "90a88be9-184a-4eed-a0d7-1993a590b503",
+                                            "type": "identifier",
+                                            "text": "tax",
+                                            "start": [
+                                                1,
+                                                4
+                                            ],
+                                            "end": [
+                                                1,
+                                                7
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "175c415f-7c3e-4e9a-9e33-da8cd61edc2a",
+                                            "type": "binary_operator",
+                                            "text": "price * tax_rate",
+                                            "start": [
+                                                1,
+                                                10
+                                            ],
+                                            "end": [
+                                                1,
+                                                26
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "08de600f-dbda-4b53-809b-b3409f33e38d",
+                                                    "type": "identifier",
+                                                    "text": "price",
+                                                    "start": [
+                                                        1,
+                                                        10
+                                                    ],
+                                                    "end": [
+                                                        1,
+                                                        15
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "id": "2bc6e614-305b-4337-941b-0b713f722e04",
+                                                    "type": "identifier",
+                                                    "text": "tax_rate",
+                                                    "start": [
+                                                        1,
+                                                        18
+                                                    ],
+                                                    "end": [
+                                                        1,
+                                                        26
+                                                    ],
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "7611fa4e-524d-4485-a900-ea596eb78a4e",
+                            "type": "expression_statement",
+                            "text": "total = price + tax",
+                            "start": [
+                                2,
+                                4
+                            ],
+                            "end": [
+                                2,
+                                23
+                            ],
+                            "children": [
+                                {
+                                    "id": "35100d46-173a-4de7-a621-7b2bec62add0",
+                                    "type": "assignment",
+                                    "text": "total = price + tax",
+                                    "start": [
+                                        2,
+                                        4
+                                    ],
+                                    "end": [
+                                        2,
+                                        23
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "b7414b60-c26a-47f8-9b28-6c4890fba0c9",
+                                            "type": "identifier",
+                                            "text": "total",
+                                            "start": [
+                                                2,
+                                                4
+                                            ],
+                                            "end": [
+                                                2,
+                                                9
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "c039b475-9940-4adb-a1b3-994799231247",
+                                            "type": "binary_operator",
+                                            "text": "price + tax",
+                                            "start": [
+                                                2,
+                                                12
+                                            ],
+                                            "end": [
+                                                2,
+                                                23
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "8d3e54d6-1085-4b7f-9fde-843197e0fe35",
+                                                    "type": "identifier",
+                                                    "text": "price",
+                                                    "start": [
+                                                        2,
+                                                        12
+                                                    ],
+                                                    "end": [
+                                                        2,
+                                                        17
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "id": "5f1200e9-7de0-4046-9cdb-e8bfa300173c",
+                                                    "type": "identifier",
+                                                    "text": "tax",
+                                                    "start": [
+                                                        2,
+                                                        20
+                                                    ],
+                                                    "end": [
+                                                        2,
+                                                        23
+                                                    ],
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "28e7da71-ea5c-413a-841b-c2ca16769e64",
+                            "type": "return_statement",
+                            "text": "return total",
+                            "start": [
+                                3,
+                                4
+                            ],
+                            "end": [
+                                3,
+                                16
+                            ],
+                            "children": [
+                                {
+                                    "id": "f233b96c-538f-4d50-9608-bd0719da4272",
+                                    "type": "identifier",
+                                    "text": "total",
+                                    "start": [
+                                        3,
+                                        11
+                                    ],
+                                    "end": [
+                                        3,
+                                        16
+                                    ],
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "d4c0c650-874c-4bc6-8ed7-f6ac5defabe9",
+            "type": "if_statement",
+            "text": "if __name__ == \"__main__\":\n    result = calculate_total(100.0, 0.15)\n    print(\"Total:\", result)",
+            "start": [
+                5,
+                0
+            ],
+            "end": [
+                7,
+                27
+            ],
+            "children": [
+                {
+                    "id": "f9b24e4e-250f-4b98-a854-4058216e0f51",
+                    "type": "comparison_operator",
+                    "text": "__name__ == \"__main__\"",
+                    "start": [
+                        5,
+                        3
+                    ],
+                    "end": [
+                        5,
+                        25
+                    ],
+                    "children": [
+                        {
+                            "id": "7c106522-7a98-437c-8986-1569d985428d",
+                            "type": "identifier",
+                            "text": "__name__",
+                            "start": [
+                                5,
+                                3
+                            ],
+                            "end": [
+                                5,
+                                11
+                            ],
+                            "children": []
+                        },
+                        {
+                            "id": "6cc3b972-e50a-43f7-9877-a3481a5486c4",
+                            "type": "string",
+                            "text": "\"__main__\"",
+                            "start": [
+                                5,
+                                15
+                            ],
+                            "end": [
+                                5,
+                                25
+                            ],
+                            "children": [
+                                {
+                                    "id": "db191e93-c38e-4a94-b36d-c37b5c8578d2",
+                                    "type": "string_start",
+                                    "text": "\"",
+                                    "start": [
+                                        5,
+                                        15
+                                    ],
+                                    "end": [
+                                        5,
+                                        16
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "id": "96b103b1-0a82-4fb4-b4e9-c301a053cae2",
+                                    "type": "string_content",
+                                    "text": "__main__",
+                                    "start": [
+                                        5,
+                                        16
+                                    ],
+                                    "end": [
+                                        5,
+                                        24
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "id": "5f0c1383-f7f8-41be-8834-b449d441bddb",
+                                    "type": "string_end",
+                                    "text": "\"",
+                                    "start": [
+                                        5,
+                                        24
+                                    ],
+                                    "end": [
+                                        5,
+                                        25
+                                    ],
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "4e3cb12c-3051-432f-a4f0-1d97dc96d933",
+                    "type": "block",
+                    "text": "result = calculate_total(100.0, 0.15)\n    print(\"Total:\", result)",
+                    "start": [
+                        6,
+                        4
+                    ],
+                    "end": [
+                        7,
+                        27
+                    ],
+                    "children": [
+                        {
+                            "id": "8d1640b8-0f1e-4c99-8725-638659fd8b4f",
+                            "type": "expression_statement",
+                            "text": "result = calculate_total(100.0, 0.15)",
+                            "start": [
+                                6,
+                                4
+                            ],
+                            "end": [
+                                6,
+                                41
+                            ],
+                            "children": [
+                                {
+                                    "id": "31f24892-96fd-4f14-ab7d-821d7473d51e",
+                                    "type": "assignment",
+                                    "text": "result = calculate_total(100.0, 0.15)",
+                                    "start": [
+                                        6,
+                                        4
+                                    ],
+                                    "end": [
+                                        6,
+                                        41
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "b87264b1-d0fa-419c-8fc4-bc99b0b74f5c",
+                                            "type": "identifier",
+                                            "text": "result",
+                                            "start": [
+                                                6,
+                                                4
+                                            ],
+                                            "end": [
+                                                6,
+                                                10
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "5b68d360-47be-4d8a-8ebd-8d2e1f13aa8f",
+                                            "type": "call",
+                                            "text": "calculate_total(100.0, 0.15)",
+                                            "start": [
+                                                6,
+                                                13
+                                            ],
+                                            "end": [
+                                                6,
+                                                41
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "428aeee5-fefd-48b8-85da-b2c23437e351",
+                                                    "type": "identifier",
+                                                    "text": "calculate_total",
+                                                    "start": [
+                                                        6,
+                                                        13
+                                                    ],
+                                                    "end": [
+                                                        6,
+                                                        28
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "id": "4eec1cd4-6274-4bd4-bffc-a0bf34cd98b3",
+                                                    "type": "argument_list",
+                                                    "text": "(100.0, 0.15)",
+                                                    "start": [
+                                                        6,
+                                                        28
+                                                    ],
+                                                    "end": [
+                                                        6,
+                                                        41
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "b62ca148-245a-4920-b131-8538ba02d22f",
+                                                            "type": "float",
+                                                            "text": "100.0",
+                                                            "start": [
+                                                                6,
+                                                                29
+                                                            ],
+                                                            "end": [
+                                                                6,
+                                                                34
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "379bc81c-43c1-4410-a5cc-dee1171783b1",
+                                                            "type": "float",
+                                                            "text": "0.15",
+                                                            "start": [
+                                                                6,
+                                                                36
+                                                            ],
+                                                            "end": [
+                                                                6,
+                                                                40
+                                                            ],
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "e4588c9a-cbbe-4f50-8d0c-a05a19ce1be2",
+                            "type": "expression_statement",
+                            "text": "print(\"Total:\", result)",
+                            "start": [
+                                7,
+                                4
+                            ],
+                            "end": [
+                                7,
+                                27
+                            ],
+                            "children": [
+                                {
+                                    "id": "c1f86084-9a28-4970-aca2-d4c3d0518c31",
+                                    "type": "call",
+                                    "text": "print(\"Total:\", result)",
+                                    "start": [
+                                        7,
+                                        4
+                                    ],
+                                    "end": [
+                                        7,
+                                        27
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "80c3c5d5-1a3d-4514-8547-3a8ed1c43e1b",
+                                            "type": "identifier",
+                                            "text": "print",
+                                            "start": [
+                                                7,
+                                                4
+                                            ],
+                                            "end": [
+                                                7,
+                                                9
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "2d4fd37d-a6bc-4a8b-9fb9-c77d71d01ef2",
+                                            "type": "argument_list",
+                                            "text": "(\"Total:\", result)",
+                                            "start": [
+                                                7,
+                                                9
+                                            ],
+                                            "end": [
+                                                7,
+                                                27
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "ad2aff49-06f0-4423-a220-5a33a7ed595f",
+                                                    "type": "string",
+                                                    "text": "\"Total:\"",
+                                                    "start": [
+                                                        7,
+                                                        10
+                                                    ],
+                                                    "end": [
+                                                        7,
+                                                        18
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "e8b01680-0b53-49c3-97ae-8ef553da1bc6",
+                                                            "type": "string_start",
+                                                            "text": "\"",
+                                                            "start": [
+                                                                7,
+                                                                10
+                                                            ],
+                                                            "end": [
+                                                                7,
+                                                                11
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "758d2b2c-7e8d-4309-92f9-83028073db50",
+                                                            "type": "string_content",
+                                                            "text": "Total:",
+                                                            "start": [
+                                                                7,
+                                                                11
+                                                            ],
+                                                            "end": [
+                                                                7,
+                                                                17
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "b114aac3-595b-440f-8987-5f6d91b5008d",
+                                                            "type": "string_end",
+                                                            "text": "\"",
+                                                            "start": [
+                                                                7,
+                                                                17
+                                                            ],
+                                                            "end": [
+                                                                7,
+                                                                18
+                                                            ],
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "0831ce02-19b0-48f6-a3eb-7ea6cb1c3122",
+                                                    "type": "identifier",
+                                                    "text": "result",
+                                                    "start": [
+                                                        7,
+                                                        20
+                                                    ],
+                                                    "end": [
+                                                        7,
+                                                        26
+                                                    ],
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

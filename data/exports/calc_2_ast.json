@@ -1,0 +1,770 @@
+{
+    "id": "877436d7-1e90-4761-8cbc-63644277f741",
+    "type": "module",
+    "text": "def apply_discount(price, is_member):\n    if is_member:\n        discount = price * 0.20\n    else:\n        discount = price * 0.05\n    return price - discount\n\nif __name__ == \"__main__\":\n    final_price = apply_discount(200.0, True)\n    print(\"Final price:\", final_price)\n",
+    "start": [
+        0,
+        0
+    ],
+    "end": [
+        10,
+        0
+    ],
+    "children": [
+        {
+            "id": "6ce9a92a-5ddb-473c-887c-c2e0549c6e38",
+            "type": "function_definition",
+            "text": "def apply_discount(price, is_member):\n    if is_member:\n        discount = price * 0.20\n    else:\n        discount = price * 0.05\n    return price - discount",
+            "start": [
+                0,
+                0
+            ],
+            "end": [
+                5,
+                27
+            ],
+            "children": [
+                {
+                    "id": "da85a9e8-3d31-4737-9712-4efb43fc730a",
+                    "type": "identifier",
+                    "text": "apply_discount",
+                    "start": [
+                        0,
+                        4
+                    ],
+                    "end": [
+                        0,
+                        18
+                    ],
+                    "children": []
+                },
+                {
+                    "id": "8f562154-3da4-46b8-ad11-96718e0a6675",
+                    "type": "parameters",
+                    "text": "(price, is_member)",
+                    "start": [
+                        0,
+                        18
+                    ],
+                    "end": [
+                        0,
+                        36
+                    ],
+                    "children": [
+                        {
+                            "id": "b204a3e1-4424-4971-8958-7f0ab12ab8b9",
+                            "type": "identifier",
+                            "text": "price",
+                            "start": [
+                                0,
+                                19
+                            ],
+                            "end": [
+                                0,
+                                24
+                            ],
+                            "children": []
+                        },
+                        {
+                            "id": "6cd61bc9-82e2-475b-916c-a076e51b567d",
+                            "type": "identifier",
+                            "text": "is_member",
+                            "start": [
+                                0,
+                                26
+                            ],
+                            "end": [
+                                0,
+                                35
+                            ],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "29369ed7-abed-4314-aaba-71e6a3f5844e",
+                    "type": "block",
+                    "text": "if is_member:\n        discount = price * 0.20\n    else:\n        discount = price * 0.05\n    return price - discount",
+                    "start": [
+                        1,
+                        4
+                    ],
+                    "end": [
+                        5,
+                        27
+                    ],
+                    "children": [
+                        {
+                            "id": "032a81c1-e606-41c2-aa75-e09a0dc7d156",
+                            "type": "if_statement",
+                            "text": "if is_member:\n        discount = price * 0.20\n    else:\n        discount = price * 0.05",
+                            "start": [
+                                1,
+                                4
+                            ],
+                            "end": [
+                                4,
+                                31
+                            ],
+                            "children": [
+                                {
+                                    "id": "3c197200-85d0-4b91-a2a0-1c6af9b2a6eb",
+                                    "type": "identifier",
+                                    "text": "is_member",
+                                    "start": [
+                                        1,
+                                        7
+                                    ],
+                                    "end": [
+                                        1,
+                                        16
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "id": "b98d5a95-6d76-4719-a1c7-d2bcf096d045",
+                                    "type": "block",
+                                    "text": "discount = price * 0.20",
+                                    "start": [
+                                        2,
+                                        8
+                                    ],
+                                    "end": [
+                                        2,
+                                        31
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "28e4fdba-b7ae-49ce-8569-590ef16c7eac",
+                                            "type": "expression_statement",
+                                            "text": "discount = price * 0.20",
+                                            "start": [
+                                                2,
+                                                8
+                                            ],
+                                            "end": [
+                                                2,
+                                                31
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "e0ecbe88-5dc2-419a-ba30-b2307601ead5",
+                                                    "type": "assignment",
+                                                    "text": "discount = price * 0.20",
+                                                    "start": [
+                                                        2,
+                                                        8
+                                                    ],
+                                                    "end": [
+                                                        2,
+                                                        31
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "985bbf84-8c6b-4801-8397-ef92497d7616",
+                                                            "type": "identifier",
+                                                            "text": "discount",
+                                                            "start": [
+                                                                2,
+                                                                8
+                                                            ],
+                                                            "end": [
+                                                                2,
+                                                                16
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "2d327c65-1a7a-4699-89a0-4de5cd39c0af",
+                                                            "type": "binary_operator",
+                                                            "text": "price * 0.20",
+                                                            "start": [
+                                                                2,
+                                                                19
+                                                            ],
+                                                            "end": [
+                                                                2,
+                                                                31
+                                                            ],
+                                                            "children": [
+                                                                {
+                                                                    "id": "3456538e-47e4-4e8d-a81a-f190bcd590ab",
+                                                                    "type": "identifier",
+                                                                    "text": "price",
+                                                                    "start": [
+                                                                        2,
+                                                                        19
+                                                                    ],
+                                                                    "end": [
+                                                                        2,
+                                                                        24
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "0501c4a0-9bb0-4676-b68f-2b3875916d4d",
+                                                                    "type": "float",
+                                                                    "text": "0.20",
+                                                                    "start": [
+                                                                        2,
+                                                                        27
+                                                                    ],
+                                                                    "end": [
+                                                                        2,
+                                                                        31
+                                                                    ],
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "44be69cf-116c-47f6-805e-799e73d03f60",
+                                    "type": "else_clause",
+                                    "text": "else:\n        discount = price * 0.05",
+                                    "start": [
+                                        3,
+                                        4
+                                    ],
+                                    "end": [
+                                        4,
+                                        31
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "a19197d7-e942-4264-9ffb-91ba6d87cd19",
+                                            "type": "block",
+                                            "text": "discount = price * 0.05",
+                                            "start": [
+                                                4,
+                                                8
+                                            ],
+                                            "end": [
+                                                4,
+                                                31
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "e2451b9d-eabf-47d0-a0eb-a5d4e1304a9c",
+                                                    "type": "expression_statement",
+                                                    "text": "discount = price * 0.05",
+                                                    "start": [
+                                                        4,
+                                                        8
+                                                    ],
+                                                    "end": [
+                                                        4,
+                                                        31
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "c4258f04-81c8-43b7-8a63-bdd397218bf4",
+                                                            "type": "assignment",
+                                                            "text": "discount = price * 0.05",
+                                                            "start": [
+                                                                4,
+                                                                8
+                                                            ],
+                                                            "end": [
+                                                                4,
+                                                                31
+                                                            ],
+                                                            "children": [
+                                                                {
+                                                                    "id": "859722e2-f07e-47cc-8a89-8d3e873b1e7a",
+                                                                    "type": "identifier",
+                                                                    "text": "discount",
+                                                                    "start": [
+                                                                        4,
+                                                                        8
+                                                                    ],
+                                                                    "end": [
+                                                                        4,
+                                                                        16
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "8e194d6b-4b11-4664-b39c-7c93190400df",
+                                                                    "type": "binary_operator",
+                                                                    "text": "price * 0.05",
+                                                                    "start": [
+                                                                        4,
+                                                                        19
+                                                                    ],
+                                                                    "end": [
+                                                                        4,
+                                                                        31
+                                                                    ],
+                                                                    "children": [
+                                                                        {
+                                                                            "id": "de951a8e-a181-42fd-ab9f-f5b57d0990c4",
+                                                                            "type": "identifier",
+                                                                            "text": "price",
+                                                                            "start": [
+                                                                                4,
+                                                                                19
+                                                                            ],
+                                                                            "end": [
+                                                                                4,
+                                                                                24
+                                                                            ],
+                                                                            "children": []
+                                                                        },
+                                                                        {
+                                                                            "id": "1f7daaac-8abc-4216-9fda-070dd8161f46",
+                                                                            "type": "float",
+                                                                            "text": "0.05",
+                                                                            "start": [
+                                                                                4,
+                                                                                27
+                                                                            ],
+                                                                            "end": [
+                                                                                4,
+                                                                                31
+                                                                            ],
+                                                                            "children": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "47f93462-2246-479f-9300-ff18044d5930",
+                            "type": "return_statement",
+                            "text": "return price - discount",
+                            "start": [
+                                5,
+                                4
+                            ],
+                            "end": [
+                                5,
+                                27
+                            ],
+                            "children": [
+                                {
+                                    "id": "db2445c8-2241-4bc6-915c-1b8afa0c32df",
+                                    "type": "binary_operator",
+                                    "text": "price - discount",
+                                    "start": [
+                                        5,
+                                        11
+                                    ],
+                                    "end": [
+                                        5,
+                                        27
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "506be172-e793-4fda-ae93-817d40497063",
+                                            "type": "identifier",
+                                            "text": "price",
+                                            "start": [
+                                                5,
+                                                11
+                                            ],
+                                            "end": [
+                                                5,
+                                                16
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "ef38b1a9-3155-4bcb-99b1-267e46faf5a6",
+                                            "type": "identifier",
+                                            "text": "discount",
+                                            "start": [
+                                                5,
+                                                19
+                                            ],
+                                            "end": [
+                                                5,
+                                                27
+                                            ],
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "a0cfa126-a305-422a-a0c1-daf1b07f6f48",
+            "type": "if_statement",
+            "text": "if __name__ == \"__main__\":\n    final_price = apply_discount(200.0, True)\n    print(\"Final price:\", final_price)",
+            "start": [
+                7,
+                0
+            ],
+            "end": [
+                9,
+                38
+            ],
+            "children": [
+                {
+                    "id": "467eaf9e-8285-4240-9d93-6c1478755c34",
+                    "type": "comparison_operator",
+                    "text": "__name__ == \"__main__\"",
+                    "start": [
+                        7,
+                        3
+                    ],
+                    "end": [
+                        7,
+                        25
+                    ],
+                    "children": [
+                        {
+                            "id": "cc5110e6-54b7-4ec5-9ef3-f055b6e631de",
+                            "type": "identifier",
+                            "text": "__name__",
+                            "start": [
+                                7,
+                                3
+                            ],
+                            "end": [
+                                7,
+                                11
+                            ],
+                            "children": []
+                        },
+                        {
+                            "id": "56bc9a96-9b01-4bfd-a3b0-8aa548070859",
+                            "type": "string",
+                            "text": "\"__main__\"",
+                            "start": [
+                                7,
+                                15
+                            ],
+                            "end": [
+                                7,
+                                25
+                            ],
+                            "children": [
+                                {
+                                    "id": "2d1653b6-6524-4349-9e3f-e5c955818b19",
+                                    "type": "string_start",
+                                    "text": "\"",
+                                    "start": [
+                                        7,
+                                        15
+                                    ],
+                                    "end": [
+                                        7,
+                                        16
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "id": "78ecfc2b-2c16-4a01-b263-3d7b678a9b1b",
+                                    "type": "string_content",
+                                    "text": "__main__",
+                                    "start": [
+                                        7,
+                                        16
+                                    ],
+                                    "end": [
+                                        7,
+                                        24
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "id": "3cb76bb7-d9d1-43eb-a167-c67f15a1be6e",
+                                    "type": "string_end",
+                                    "text": "\"",
+                                    "start": [
+                                        7,
+                                        24
+                                    ],
+                                    "end": [
+                                        7,
+                                        25
+                                    ],
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "44ad4d14-bf5f-4938-bbb8-a5c1808e1cea",
+                    "type": "block",
+                    "text": "final_price = apply_discount(200.0, True)\n    print(\"Final price:\", final_price)",
+                    "start": [
+                        8,
+                        4
+                    ],
+                    "end": [
+                        9,
+                        38
+                    ],
+                    "children": [
+                        {
+                            "id": "5530e1eb-ec3f-49d7-a9a5-13d61bfe569f",
+                            "type": "expression_statement",
+                            "text": "final_price = apply_discount(200.0, True)",
+                            "start": [
+                                8,
+                                4
+                            ],
+                            "end": [
+                                8,
+                                45
+                            ],
+                            "children": [
+                                {
+                                    "id": "3229fd5f-8ad7-459e-9509-c220e1ac93f8",
+                                    "type": "assignment",
+                                    "text": "final_price = apply_discount(200.0, True)",
+                                    "start": [
+                                        8,
+                                        4
+                                    ],
+                                    "end": [
+                                        8,
+                                        45
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "b5933be8-b035-4163-a352-975d444d4f47",
+                                            "type": "identifier",
+                                            "text": "final_price",
+                                            "start": [
+                                                8,
+                                                4
+                                            ],
+                                            "end": [
+                                                8,
+                                                15
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "f7c291d1-933c-44e9-81f9-db5b00d3f46b",
+                                            "type": "call",
+                                            "text": "apply_discount(200.0, True)",
+                                            "start": [
+                                                8,
+                                                18
+                                            ],
+                                            "end": [
+                                                8,
+                                                45
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "4ca91d17-10c0-4aa3-bf9d-21be2ab7bcef",
+                                                    "type": "identifier",
+                                                    "text": "apply_discount",
+                                                    "start": [
+                                                        8,
+                                                        18
+                                                    ],
+                                                    "end": [
+                                                        8,
+                                                        32
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "id": "560d3c34-038e-45e4-ab1a-766d446722cc",
+                                                    "type": "argument_list",
+                                                    "text": "(200.0, True)",
+                                                    "start": [
+                                                        8,
+                                                        32
+                                                    ],
+                                                    "end": [
+                                                        8,
+                                                        45
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "caf072aa-a8a8-4798-b40d-8f9549ceffd2",
+                                                            "type": "float",
+                                                            "text": "200.0",
+                                                            "start": [
+                                                                8,
+                                                                33
+                                                            ],
+                                                            "end": [
+                                                                8,
+                                                                38
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "c68ec95e-75f4-4067-b41e-9fa296c3a809",
+                                                            "type": "true",
+                                                            "text": "True",
+                                                            "start": [
+                                                                8,
+                                                                40
+                                                            ],
+                                                            "end": [
+                                                                8,
+                                                                44
+                                                            ],
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "b533a548-599c-45eb-a76c-7bb7cac45702",
+                            "type": "expression_statement",
+                            "text": "print(\"Final price:\", final_price)",
+                            "start": [
+                                9,
+                                4
+                            ],
+                            "end": [
+                                9,
+                                38
+                            ],
+                            "children": [
+                                {
+                                    "id": "3b644c56-b29c-40e0-9f5e-62251bf85b3e",
+                                    "type": "call",
+                                    "text": "print(\"Final price:\", final_price)",
+                                    "start": [
+                                        9,
+                                        4
+                                    ],
+                                    "end": [
+                                        9,
+                                        38
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "7d1babee-c5b7-4338-bb0c-562145acee17",
+                                            "type": "identifier",
+                                            "text": "print",
+                                            "start": [
+                                                9,
+                                                4
+                                            ],
+                                            "end": [
+                                                9,
+                                                9
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "d4d36190-1d7c-4923-9117-d01100229a0a",
+                                            "type": "argument_list",
+                                            "text": "(\"Final price:\", final_price)",
+                                            "start": [
+                                                9,
+                                                9
+                                            ],
+                                            "end": [
+                                                9,
+                                                38
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "c00747fb-fedb-4cab-b812-34df0d36a7d5",
+                                                    "type": "string",
+                                                    "text": "\"Final price:\"",
+                                                    "start": [
+                                                        9,
+                                                        10
+                                                    ],
+                                                    "end": [
+                                                        9,
+                                                        24
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "74f2fe3d-37db-4c50-8bfb-cdf4db402208",
+                                                            "type": "string_start",
+                                                            "text": "\"",
+                                                            "start": [
+                                                                9,
+                                                                10
+                                                            ],
+                                                            "end": [
+                                                                9,
+                                                                11
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "ba81b4c4-74e6-4dc2-a2b9-65b10a829fb4",
+                                                            "type": "string_content",
+                                                            "text": "Final price:",
+                                                            "start": [
+                                                                9,
+                                                                11
+                                                            ],
+                                                            "end": [
+                                                                9,
+                                                                23
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "b35c3528-8fdc-4c4e-9ea2-1fe0e977c976",
+                                                            "type": "string_end",
+                                                            "text": "\"",
+                                                            "start": [
+                                                                9,
+                                                                23
+                                                            ],
+                                                            "end": [
+                                                                9,
+                                                                24
+                                                            ],
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "eddfe677-d769-4134-acae-c2f911adba26",
+                                                    "type": "identifier",
+                                                    "text": "final_price",
+                                                    "start": [
+                                                        9,
+                                                        26
+                                                    ],
+                                                    "end": [
+                                                        9,
+                                                        37
+                                                    ],
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
