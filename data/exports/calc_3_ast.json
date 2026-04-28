@@ -1,6 +1,7 @@
 {
-    "id": "ddd24810-f076-41d5-9133-f68d4b7fb2a7",
+    "id": "state_d6898e8648ab",
     "type": "module",
+    "tier": 0,
     "text": "def calculate_factorial(n):\n    if n < 0:\n        return None\n    result = 1\n    i = 1\n    while i <= n:\n        result = result * i\n        i += 1\n    return result\n\nif __name__ == \"__main__\":\n    fact = calculate_factorial(5)\n    print(\"Factorial of 5:\", fact)\n",
     "start": [
         0,
@@ -12,8 +13,9 @@
     ],
     "children": [
         {
-            "id": "0c354677-f487-44c1-8a84-4c017f8f5434",
+            "id": "state_4851f732c460",
             "type": "function_definition",
+            "tier": 0,
             "text": "def calculate_factorial(n):\n    if n < 0:\n        return None\n    result = 1\n    i = 1\n    while i <= n:\n        result = result * i\n        i += 1\n    return result",
             "start": [
                 0,
@@ -25,8 +27,9 @@
             ],
             "children": [
                 {
-                    "id": "f4dfd58e-1f1d-421a-a88f-225c9f1187a5",
+                    "id": "state_2172e49ab910",
                     "type": "identifier",
+                    "tier": 1,
                     "text": "calculate_factorial",
                     "start": [
                         0,
@@ -39,8 +42,9 @@
                     "children": []
                 },
                 {
-                    "id": "63611616-b74c-450d-814a-6cb369f404da",
+                    "id": "state_8c703e9fd4f1",
                     "type": "parameters",
+                    "tier": 0,
                     "text": "(n)",
                     "start": [
                         0,
@@ -52,8 +56,9 @@
                     ],
                     "children": [
                         {
-                            "id": "1302c5f3-2b77-49d2-a245-e780b01a11d5",
+                            "id": "state_7f95fc790eaa",
                             "type": "identifier",
+                            "tier": 1,
                             "text": "n",
                             "start": [
                                 0,
@@ -68,8 +73,9 @@
                     ]
                 },
                 {
-                    "id": "398d67d8-48dd-483b-b6a4-607ba57913fc",
+                    "id": "state_a2efad7a1b29",
                     "type": "block",
+                    "tier": 0,
                     "text": "if n < 0:\n        return None\n    result = 1\n    i = 1\n    while i <= n:\n        result = result * i\n        i += 1\n    return result",
                     "start": [
                         1,
@@ -81,8 +87,9 @@
                     ],
                     "children": [
                         {
-                            "id": "df3a5eda-7729-4ba2-b08c-e3a08d5cd9f6",
+                            "id": "state_dd32e7ed86e0",
                             "type": "if_statement",
+                            "tier": 2,
                             "text": "if n < 0:\n        return None",
                             "start": [
                                 1,
@@ -94,8 +101,9 @@
                             ],
                             "children": [
                                 {
-                                    "id": "33babfc3-7a1f-47e6-8bb7-92d51a9e6aab",
+                                    "id": "state_b80886add438",
                                     "type": "comparison_operator",
+                                    "tier": 2,
                                     "text": "n < 0",
                                     "start": [
                                         1,
@@ -107,8 +115,9 @@
                                     ],
                                     "children": [
                                         {
-                                            "id": "202bb460-10a8-4655-b1b1-075167a01fc3",
+                                            "id": "state_23bc594c0cb3",
                                             "type": "identifier",
+                                            "tier": 1,
                                             "text": "n",
                                             "start": [
                                                 1,
@@ -121,8 +130,9 @@
                                             "children": []
                                         },
                                         {
-                                            "id": "341914de-eb98-4d15-9648-54765e0bfb28",
+                                            "id": "state_2bb213cc3330",
                                             "type": "integer",
+                                            "tier": 1,
                                             "text": "0",
                                             "start": [
                                                 1,
@@ -137,8 +147,9 @@
                                     ]
                                 },
                                 {
-                                    "id": "dbad5864-5816-4ded-bb42-8cfa502b534c",
+                                    "id": "state_815093c5c716",
                                     "type": "block",
+                                    "tier": 0,
                                     "text": "return None",
                                     "start": [
                                         2,
@@ -150,8 +161,9 @@
                                     ],
                                     "children": [
                                         {
-                                            "id": "e2b6c9fd-109f-461a-9217-3ce7ccc53eed",
+                                            "id": "state_90c1a298394a",
                                             "type": "return_statement",
+                                            "tier": 1,
                                             "text": "return None",
                                             "start": [
                                                 2,
@@ -163,8 +175,9 @@
                                             ],
                                             "children": [
                                                 {
-                                                    "id": "cf6dcb30-bead-4d6d-a2e0-33769ebd5352",
+                                                    "id": "state_4e6fa3ba05fd",
                                                     "type": "none",
+                                                    "tier": 0,
                                                     "text": "None",
                                                     "start": [
                                                         2,
@@ -183,8 +196,9 @@
                             ]
                         },
                         {
-                            "id": "bde04091-cc98-4c95-ad58-d4015e01a3eb",
+                            "id": "state_7212e39dba26",
                             "type": "expression_statement",
+                            "tier": 0,
                             "text": "result = 1",
                             "start": [
                                 3,
@@ -196,8 +210,9 @@
                             ],
                             "children": [
                                 {
-                                    "id": "fa77fe9f-cb1a-4fd6-8c4e-b53946e8bd29",
+                                    "id": "state_aee52d4602fc",
                                     "type": "assignment",
+                                    "tier": 1,
                                     "text": "result = 1",
                                     "start": [
                                         3,
@@ -209,8 +224,9 @@
                                     ],
                                     "children": [
                                         {
-                                            "id": "e939c470-ddca-4af9-91e4-cd59bd342df0",
+                                            "id": "state_f3d7974aabc3",
                                             "type": "identifier",
+                                            "tier": 1,
                                             "text": "result",
                                             "start": [
                                                 3,
@@ -223,8 +239,9 @@
                                             "children": []
                                         },
                                         {
-                                            "id": "94221c03-ffee-4a51-bad2-15b6f529bd60",
+                                            "id": "state_66edb074eda1",
                                             "type": "integer",
+                                            "tier": 1,
                                             "text": "1",
                                             "start": [
                                                 3,
@@ -241,8 +258,9 @@
                             ]
                         },
                         {
-                            "id": "60ae10e7-cca4-4bd1-80f0-574b7304a711",
+                            "id": "state_df58ebc46333",
                             "type": "expression_statement",
+                            "tier": 0,
                             "text": "i = 1",
                             "start": [
                                 4,
@@ -254,8 +272,9 @@
                             ],
                             "children": [
                                 {
-                                    "id": "434442fb-8774-4d31-ab52-0be3ded89a06",
+                                    "id": "state_ef63c5c1a04d",
                                     "type": "assignment",
+                                    "tier": 1,
                                     "text": "i = 1",
                                     "start": [
                                         4,
@@ -267,8 +286,9 @@
                                     ],
                                     "children": [
                                         {
-                                            "id": "e7aaca03-127a-4c17-9fbd-ed1858b3e5ae",
+                                            "id": "state_72a73ab42594",
                                             "type": "identifier",
+                                            "tier": 1,
                                             "text": "i",
                                             "start": [
                                                 4,
@@ -281,8 +301,9 @@
                                             "children": []
                                         },
                                         {
-                                            "id": "bfd0df09-e4ba-40aa-a1a5-6fe2d6a4d579",
+                                            "id": "state_ba888c434266",
                                             "type": "integer",
+                                            "tier": 1,
                                             "text": "1",
                                             "start": [
                                                 4,
@@ -299,8 +320,9 @@
                             ]
                         },
                         {
-                            "id": "857d2a8a-2ff8-4761-b9d0-886b9482abdb",
+                            "id": "state_a0ae1047b9b9",
                             "type": "while_statement",
+                            "tier": 3,
                             "text": "while i <= n:\n        result = result * i\n        i += 1",
                             "start": [
                                 5,
@@ -312,8 +334,9 @@
                             ],
                             "children": [
                                 {
-                                    "id": "497332ae-4abe-4e7b-b3d6-721485f127fe",
+                                    "id": "state_cd094948d644",
                                     "type": "comparison_operator",
+                                    "tier": 2,
                                     "text": "i <= n",
                                     "start": [
                                         5,
@@ -325,8 +348,9 @@
                                     ],
                                     "children": [
                                         {
-                                            "id": "c5b233c8-71b7-40e7-8052-3352f4aab85c",
+                                            "id": "state_cccdb074e45d",
                                             "type": "identifier",
+                                            "tier": 1,
                                             "text": "i",
                                             "start": [
                                                 5,
@@ -339,8 +363,9 @@
                                             "children": []
                                         },
                                         {
-                                            "id": "c15b06ec-7c45-4bf6-94e8-ef92f8f37316",
+                                            "id": "state_c6507d24906e",
                                             "type": "identifier",
+                                            "tier": 1,
                                             "text": "n",
                                             "start": [
                                                 5,
@@ -355,8 +380,9 @@
                                     ]
                                 },
                                 {
-                                    "id": "5ddc0bba-028c-4769-b620-e92e8ab385ad",
+                                    "id": "state_e8d42d5100c9",
                                     "type": "block",
+                                    "tier": 0,
                                     "text": "result = result * i\n        i += 1",
                                     "start": [
                                         6,
@@ -368,8 +394,9 @@
                                     ],
                                     "children": [
                                         {
-                                            "id": "69c7b82f-80d1-4cbc-9928-6c30aaf8da3e",
+                                            "id": "state_2f0b064399e0",
                                             "type": "expression_statement",
+                                            "tier": 0,
                                             "text": "result = result * i",
                                             "start": [
                                                 6,
@@ -381,8 +408,9 @@
                                             ],
                                             "children": [
                                                 {
-                                                    "id": "d110cd24-f45b-45c8-8056-7ae092260f30",
+                                                    "id": "state_4cf166b0dbd7",
                                                     "type": "assignment",
+                                                    "tier": 1,
                                                     "text": "result = result * i",
                                                     "start": [
                                                         6,
@@ -394,8 +422,9 @@
                                                     ],
                                                     "children": [
                                                         {
-                                                            "id": "2355f190-b83d-4d4f-ba49-66b301e50179",
+                                                            "id": "state_845e9a878089",
                                                             "type": "identifier",
+                                                            "tier": 1,
                                                             "text": "result",
                                                             "start": [
                                                                 6,
@@ -408,8 +437,9 @@
                                                             "children": []
                                                         },
                                                         {
-                                                            "id": "4f349230-ff9c-4dbc-b47a-e09e880f5659",
+                                                            "id": "state_eaa9c4b06a57",
                                                             "type": "binary_operator",
+                                                            "tier": 1,
                                                             "text": "result * i",
                                                             "start": [
                                                                 6,
@@ -421,8 +451,9 @@
                                                             ],
                                                             "children": [
                                                                 {
-                                                                    "id": "b30abf52-4627-4aec-9d87-b360e8257f1c",
+                                                                    "id": "state_c8206af5f875",
                                                                     "type": "identifier",
+                                                                    "tier": 1,
                                                                     "text": "result",
                                                                     "start": [
                                                                         6,
@@ -435,8 +466,9 @@
                                                                     "children": []
                                                                 },
                                                                 {
-                                                                    "id": "c01d6ee9-5ea5-4035-80a6-2eb96f0d3051",
+                                                                    "id": "state_12de371d1c9a",
                                                                     "type": "identifier",
+                                                                    "tier": 1,
                                                                     "text": "i",
                                                                     "start": [
                                                                         6,
@@ -455,8 +487,9 @@
                                             ]
                                         },
                                         {
-                                            "id": "7fa9e704-f6f3-4906-aa57-6962f3f585fe",
+                                            "id": "state_84897020420a",
                                             "type": "expression_statement",
+                                            "tier": 0,
                                             "text": "i += 1",
                                             "start": [
                                                 7,
@@ -468,8 +501,9 @@
                                             ],
                                             "children": [
                                                 {
-                                                    "id": "6306a825-6349-4260-8fa0-08a06af463c0",
+                                                    "id": "state_82469bb7b7af",
                                                     "type": "augmented_assignment",
+                                                    "tier": 1,
                                                     "text": "i += 1",
                                                     "start": [
                                                         7,
@@ -481,8 +515,9 @@
                                                     ],
                                                     "children": [
                                                         {
-                                                            "id": "cdcc7098-44c2-4c95-a4c4-397de56aff73",
+                                                            "id": "state_d7dcbc1554b4",
                                                             "type": "identifier",
+                                                            "tier": 1,
                                                             "text": "i",
                                                             "start": [
                                                                 7,
@@ -495,8 +530,9 @@
                                                             "children": []
                                                         },
                                                         {
-                                                            "id": "a2925648-5323-459b-b987-a0a2492681bc",
+                                                            "id": "state_f5c47ef6e48d",
                                                             "type": "integer",
+                                                            "tier": 1,
                                                             "text": "1",
                                                             "start": [
                                                                 7,
@@ -517,8 +553,9 @@
                             ]
                         },
                         {
-                            "id": "80201deb-4d4a-4144-997f-e27b1aeddcc7",
+                            "id": "state_7c231f6b0e77",
                             "type": "return_statement",
+                            "tier": 1,
                             "text": "return result",
                             "start": [
                                 8,
@@ -530,8 +567,9 @@
                             ],
                             "children": [
                                 {
-                                    "id": "a0ff67d7-d673-467c-8822-4766f38f3ea9",
+                                    "id": "state_9cc6bb293bf9",
                                     "type": "identifier",
+                                    "tier": 1,
                                     "text": "result",
                                     "start": [
                                         8,
@@ -550,8 +588,9 @@
             ]
         },
         {
-            "id": "6652b653-9641-4cd5-9be1-1627453385cf",
+            "id": "state_0a04762f6c7b",
             "type": "if_statement",
+            "tier": 2,
             "text": "if __name__ == \"__main__\":\n    fact = calculate_factorial(5)\n    print(\"Factorial of 5:\", fact)",
             "start": [
                 10,
@@ -563,8 +602,9 @@
             ],
             "children": [
                 {
-                    "id": "17fb72a2-24ca-4319-b1b4-cce2f6d9a4bd",
+                    "id": "state_09ed3b16565e",
                     "type": "comparison_operator",
+                    "tier": 2,
                     "text": "__name__ == \"__main__\"",
                     "start": [
                         10,
@@ -576,8 +616,9 @@
                     ],
                     "children": [
                         {
-                            "id": "35794c77-c845-4180-8130-d850aff4d6af",
+                            "id": "state_519e1ec499b4",
                             "type": "identifier",
+                            "tier": 1,
                             "text": "__name__",
                             "start": [
                                 10,
@@ -590,8 +631,9 @@
                             "children": []
                         },
                         {
-                            "id": "e7560738-7755-4e7e-9697-7ecb0488b25b",
+                            "id": "state_789a92cd701a",
                             "type": "string",
+                            "tier": 0,
                             "text": "\"__main__\"",
                             "start": [
                                 10,
@@ -603,8 +645,9 @@
                             ],
                             "children": [
                                 {
-                                    "id": "34251ce8-c915-446e-82a4-ae5465743d27",
+                                    "id": "state_2ce6e6277f3a",
                                     "type": "string_start",
+                                    "tier": 0,
                                     "text": "\"",
                                     "start": [
                                         10,
@@ -617,8 +660,9 @@
                                     "children": []
                                 },
                                 {
-                                    "id": "0cfbe412-70fe-4bc0-8987-927052d1c805",
+                                    "id": "state_252822874a29",
                                     "type": "string_content",
+                                    "tier": 0,
                                     "text": "__main__",
                                     "start": [
                                         10,
@@ -631,8 +675,9 @@
                                     "children": []
                                 },
                                 {
-                                    "id": "69504964-e537-439c-a5a1-98560d199191",
+                                    "id": "state_7492c71917d4",
                                     "type": "string_end",
+                                    "tier": 0,
                                     "text": "\"",
                                     "start": [
                                         10,
@@ -649,8 +694,9 @@
                     ]
                 },
                 {
-                    "id": "1727ffa8-59bd-4563-8be9-732f5e42f8e7",
+                    "id": "state_f501e22af18e",
                     "type": "block",
+                    "tier": 0,
                     "text": "fact = calculate_factorial(5)\n    print(\"Factorial of 5:\", fact)",
                     "start": [
                         11,
@@ -662,8 +708,9 @@
                     ],
                     "children": [
                         {
-                            "id": "e754c6a4-1fa9-40b3-9c05-6db6be38edcc",
+                            "id": "state_ca827e8d5ce4",
                             "type": "expression_statement",
+                            "tier": 0,
                             "text": "fact = calculate_factorial(5)",
                             "start": [
                                 11,
@@ -675,8 +722,9 @@
                             ],
                             "children": [
                                 {
-                                    "id": "b09b2158-8466-4228-9ded-c4f50dabcb9f",
+                                    "id": "state_1ba6f29a5224",
                                     "type": "assignment",
+                                    "tier": 1,
                                     "text": "fact = calculate_factorial(5)",
                                     "start": [
                                         11,
@@ -688,8 +736,9 @@
                                     ],
                                     "children": [
                                         {
-                                            "id": "220e003f-b59b-4b04-a8c1-20ff585e790d",
+                                            "id": "state_cb40c6ba5011",
                                             "type": "identifier",
+                                            "tier": 1,
                                             "text": "fact",
                                             "start": [
                                                 11,
@@ -702,8 +751,9 @@
                                             "children": []
                                         },
                                         {
-                                            "id": "14eb29bf-adef-4a7f-b452-95f91f9c2942",
+                                            "id": "state_fa30e29d28aa",
                                             "type": "call",
+                                            "tier": 0,
                                             "text": "calculate_factorial(5)",
                                             "start": [
                                                 11,
@@ -715,8 +765,9 @@
                                             ],
                                             "children": [
                                                 {
-                                                    "id": "a35f6817-12cf-449e-8e2f-a5ed0e207811",
+                                                    "id": "state_08b2707d860a",
                                                     "type": "identifier",
+                                                    "tier": 1,
                                                     "text": "calculate_factorial",
                                                     "start": [
                                                         11,
@@ -729,8 +780,9 @@
                                                     "children": []
                                                 },
                                                 {
-                                                    "id": "db12fef2-eb90-4d4d-b8ab-c6aa7d110652",
+                                                    "id": "state_6d359387d03d",
                                                     "type": "argument_list",
+                                                    "tier": 0,
                                                     "text": "(5)",
                                                     "start": [
                                                         11,
@@ -742,8 +794,9 @@
                                                     ],
                                                     "children": [
                                                         {
-                                                            "id": "fae641b7-793a-451c-91d7-b403f0dc634a",
+                                                            "id": "state_f558ea062926",
                                                             "type": "integer",
+                                                            "tier": 1,
                                                             "text": "5",
                                                             "start": [
                                                                 11,
@@ -764,8 +817,9 @@
                             ]
                         },
                         {
-                            "id": "37eaaf20-ab7d-44d2-abbd-66746615ca4f",
+                            "id": "state_651357e4a5f9",
                             "type": "expression_statement",
+                            "tier": 0,
                             "text": "print(\"Factorial of 5:\", fact)",
                             "start": [
                                 12,
@@ -777,8 +831,9 @@
                             ],
                             "children": [
                                 {
-                                    "id": "d2400da1-a2db-450d-acd1-45f5b36b4918",
+                                    "id": "state_e7c572f37176",
                                     "type": "call",
+                                    "tier": 0,
                                     "text": "print(\"Factorial of 5:\", fact)",
                                     "start": [
                                         12,
@@ -790,8 +845,9 @@
                                     ],
                                     "children": [
                                         {
-                                            "id": "2d28392d-63c2-48fc-a370-5acecf0dde61",
+                                            "id": "state_e5d313602142",
                                             "type": "identifier",
+                                            "tier": 1,
                                             "text": "print",
                                             "start": [
                                                 12,
@@ -804,8 +860,9 @@
                                             "children": []
                                         },
                                         {
-                                            "id": "b39760ef-42a7-47f0-8f24-08d4b873bdd6",
+                                            "id": "state_d2d85796844f",
                                             "type": "argument_list",
+                                            "tier": 0,
                                             "text": "(\"Factorial of 5:\", fact)",
                                             "start": [
                                                 12,
@@ -817,8 +874,9 @@
                                             ],
                                             "children": [
                                                 {
-                                                    "id": "8c345f1a-3a73-44b9-9dcb-428a5914b995",
+                                                    "id": "state_a4a4eef85f29",
                                                     "type": "string",
+                                                    "tier": 0,
                                                     "text": "\"Factorial of 5:\"",
                                                     "start": [
                                                         12,
@@ -830,8 +888,9 @@
                                                     ],
                                                     "children": [
                                                         {
-                                                            "id": "d8b4ff91-0c90-41c0-b5a5-bd5428abc241",
+                                                            "id": "state_ccdb57231e74",
                                                             "type": "string_start",
+                                                            "tier": 0,
                                                             "text": "\"",
                                                             "start": [
                                                                 12,
@@ -844,8 +903,9 @@
                                                             "children": []
                                                         },
                                                         {
-                                                            "id": "f5e16488-41e1-4721-adda-00fc0f8aa5fd",
+                                                            "id": "state_0896a0952cf3",
                                                             "type": "string_content",
+                                                            "tier": 0,
                                                             "text": "Factorial of 5:",
                                                             "start": [
                                                                 12,
@@ -858,8 +918,9 @@
                                                             "children": []
                                                         },
                                                         {
-                                                            "id": "962be7f4-a03c-4b15-a263-20537128767c",
+                                                            "id": "state_11ea321c8cba",
                                                             "type": "string_end",
+                                                            "tier": 0,
                                                             "text": "\"",
                                                             "start": [
                                                                 12,
@@ -874,8 +935,9 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "40546b99-c04e-4cca-83ff-c57bd03f6e9b",
+                                                    "id": "state_e2561afc13b0",
                                                     "type": "identifier",
+                                                    "tier": 1,
                                                     "text": "fact",
                                                     "start": [
                                                         12,

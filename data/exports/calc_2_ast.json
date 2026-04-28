@@ -1,6 +1,7 @@
 {
-    "id": "877436d7-1e90-4761-8cbc-63644277f741",
+    "id": "state_81152b87c45e",
     "type": "module",
+    "tier": 0,
     "text": "def apply_discount(price, is_member):\n    if is_member:\n        discount = price * 0.20\n    else:\n        discount = price * 0.05\n    return price - discount\n\nif __name__ == \"__main__\":\n    final_price = apply_discount(200.0, True)\n    print(\"Final price:\", final_price)\n",
     "start": [
         0,
@@ -12,8 +13,9 @@
     ],
     "children": [
         {
-            "id": "6ce9a92a-5ddb-473c-887c-c2e0549c6e38",
+            "id": "state_3aa209b19d1c",
             "type": "function_definition",
+            "tier": 0,
             "text": "def apply_discount(price, is_member):\n    if is_member:\n        discount = price * 0.20\n    else:\n        discount = price * 0.05\n    return price - discount",
             "start": [
                 0,
@@ -25,8 +27,9 @@
             ],
             "children": [
                 {
-                    "id": "da85a9e8-3d31-4737-9712-4efb43fc730a",
+                    "id": "state_a1d09009bf3c",
                     "type": "identifier",
+                    "tier": 1,
                     "text": "apply_discount",
                     "start": [
                         0,
@@ -39,8 +42,9 @@
                     "children": []
                 },
                 {
-                    "id": "8f562154-3da4-46b8-ad11-96718e0a6675",
+                    "id": "state_0f5195ef4f65",
                     "type": "parameters",
+                    "tier": 0,
                     "text": "(price, is_member)",
                     "start": [
                         0,
@@ -52,8 +56,9 @@
                     ],
                     "children": [
                         {
-                            "id": "b204a3e1-4424-4971-8958-7f0ab12ab8b9",
+                            "id": "state_d11f5f73a88c",
                             "type": "identifier",
+                            "tier": 1,
                             "text": "price",
                             "start": [
                                 0,
@@ -66,8 +71,9 @@
                             "children": []
                         },
                         {
-                            "id": "6cd61bc9-82e2-475b-916c-a076e51b567d",
+                            "id": "state_161ddec73550",
                             "type": "identifier",
+                            "tier": 1,
                             "text": "is_member",
                             "start": [
                                 0,
@@ -82,8 +88,9 @@
                     ]
                 },
                 {
-                    "id": "29369ed7-abed-4314-aaba-71e6a3f5844e",
+                    "id": "state_7b3443403acd",
                     "type": "block",
+                    "tier": 0,
                     "text": "if is_member:\n        discount = price * 0.20\n    else:\n        discount = price * 0.05\n    return price - discount",
                     "start": [
                         1,
@@ -95,8 +102,9 @@
                     ],
                     "children": [
                         {
-                            "id": "032a81c1-e606-41c2-aa75-e09a0dc7d156",
+                            "id": "state_7d914d18a0c9",
                             "type": "if_statement",
+                            "tier": 2,
                             "text": "if is_member:\n        discount = price * 0.20\n    else:\n        discount = price * 0.05",
                             "start": [
                                 1,
@@ -108,8 +116,9 @@
                             ],
                             "children": [
                                 {
-                                    "id": "3c197200-85d0-4b91-a2a0-1c6af9b2a6eb",
+                                    "id": "state_6e0fd9238d6f",
                                     "type": "identifier",
+                                    "tier": 1,
                                     "text": "is_member",
                                     "start": [
                                         1,
@@ -122,8 +131,9 @@
                                     "children": []
                                 },
                                 {
-                                    "id": "b98d5a95-6d76-4719-a1c7-d2bcf096d045",
+                                    "id": "state_b5eb0d206511",
                                     "type": "block",
+                                    "tier": 0,
                                     "text": "discount = price * 0.20",
                                     "start": [
                                         2,
@@ -135,8 +145,9 @@
                                     ],
                                     "children": [
                                         {
-                                            "id": "28e4fdba-b7ae-49ce-8569-590ef16c7eac",
+                                            "id": "state_5b4066f2ea8d",
                                             "type": "expression_statement",
+                                            "tier": 0,
                                             "text": "discount = price * 0.20",
                                             "start": [
                                                 2,
@@ -148,8 +159,9 @@
                                             ],
                                             "children": [
                                                 {
-                                                    "id": "e0ecbe88-5dc2-419a-ba30-b2307601ead5",
+                                                    "id": "state_bb850787f6be",
                                                     "type": "assignment",
+                                                    "tier": 1,
                                                     "text": "discount = price * 0.20",
                                                     "start": [
                                                         2,
@@ -161,8 +173,9 @@
                                                     ],
                                                     "children": [
                                                         {
-                                                            "id": "985bbf84-8c6b-4801-8397-ef92497d7616",
+                                                            "id": "state_7d2eda31cc70",
                                                             "type": "identifier",
+                                                            "tier": 1,
                                                             "text": "discount",
                                                             "start": [
                                                                 2,
@@ -175,8 +188,9 @@
                                                             "children": []
                                                         },
                                                         {
-                                                            "id": "2d327c65-1a7a-4699-89a0-4de5cd39c0af",
+                                                            "id": "state_8e24ad797422",
                                                             "type": "binary_operator",
+                                                            "tier": 1,
                                                             "text": "price * 0.20",
                                                             "start": [
                                                                 2,
@@ -188,8 +202,9 @@
                                                             ],
                                                             "children": [
                                                                 {
-                                                                    "id": "3456538e-47e4-4e8d-a81a-f190bcd590ab",
+                                                                    "id": "state_53d3f641f398",
                                                                     "type": "identifier",
+                                                                    "tier": 1,
                                                                     "text": "price",
                                                                     "start": [
                                                                         2,
@@ -202,8 +217,9 @@
                                                                     "children": []
                                                                 },
                                                                 {
-                                                                    "id": "0501c4a0-9bb0-4676-b68f-2b3875916d4d",
+                                                                    "id": "state_85ff1f699afe",
                                                                     "type": "float",
+                                                                    "tier": 1,
                                                                     "text": "0.20",
                                                                     "start": [
                                                                         2,
@@ -224,8 +240,9 @@
                                     ]
                                 },
                                 {
-                                    "id": "44be69cf-116c-47f6-805e-799e73d03f60",
+                                    "id": "state_04818f78ed6a",
                                     "type": "else_clause",
+                                    "tier": 2,
                                     "text": "else:\n        discount = price * 0.05",
                                     "start": [
                                         3,
@@ -237,8 +254,9 @@
                                     ],
                                     "children": [
                                         {
-                                            "id": "a19197d7-e942-4264-9ffb-91ba6d87cd19",
+                                            "id": "state_e819aabd9ee4",
                                             "type": "block",
+                                            "tier": 0,
                                             "text": "discount = price * 0.05",
                                             "start": [
                                                 4,
@@ -250,8 +268,9 @@
                                             ],
                                             "children": [
                                                 {
-                                                    "id": "e2451b9d-eabf-47d0-a0eb-a5d4e1304a9c",
+                                                    "id": "state_814499810ddf",
                                                     "type": "expression_statement",
+                                                    "tier": 0,
                                                     "text": "discount = price * 0.05",
                                                     "start": [
                                                         4,
@@ -263,8 +282,9 @@
                                                     ],
                                                     "children": [
                                                         {
-                                                            "id": "c4258f04-81c8-43b7-8a63-bdd397218bf4",
+                                                            "id": "state_ba630bf72e90",
                                                             "type": "assignment",
+                                                            "tier": 1,
                                                             "text": "discount = price * 0.05",
                                                             "start": [
                                                                 4,
@@ -276,8 +296,9 @@
                                                             ],
                                                             "children": [
                                                                 {
-                                                                    "id": "859722e2-f07e-47cc-8a89-8d3e873b1e7a",
+                                                                    "id": "state_77cae6103a39",
                                                                     "type": "identifier",
+                                                                    "tier": 1,
                                                                     "text": "discount",
                                                                     "start": [
                                                                         4,
@@ -290,8 +311,9 @@
                                                                     "children": []
                                                                 },
                                                                 {
-                                                                    "id": "8e194d6b-4b11-4664-b39c-7c93190400df",
+                                                                    "id": "state_0773c7d25487",
                                                                     "type": "binary_operator",
+                                                                    "tier": 1,
                                                                     "text": "price * 0.05",
                                                                     "start": [
                                                                         4,
@@ -303,8 +325,9 @@
                                                                     ],
                                                                     "children": [
                                                                         {
-                                                                            "id": "de951a8e-a181-42fd-ab9f-f5b57d0990c4",
+                                                                            "id": "state_7925ebc6c5eb",
                                                                             "type": "identifier",
+                                                                            "tier": 1,
                                                                             "text": "price",
                                                                             "start": [
                                                                                 4,
@@ -317,8 +340,9 @@
                                                                             "children": []
                                                                         },
                                                                         {
-                                                                            "id": "1f7daaac-8abc-4216-9fda-070dd8161f46",
+                                                                            "id": "state_7bf61ba8a1da",
                                                                             "type": "float",
+                                                                            "tier": 1,
                                                                             "text": "0.05",
                                                                             "start": [
                                                                                 4,
@@ -343,8 +367,9 @@
                             ]
                         },
                         {
-                            "id": "47f93462-2246-479f-9300-ff18044d5930",
+                            "id": "state_32321ff36eff",
                             "type": "return_statement",
+                            "tier": 1,
                             "text": "return price - discount",
                             "start": [
                                 5,
@@ -356,8 +381,9 @@
                             ],
                             "children": [
                                 {
-                                    "id": "db2445c8-2241-4bc6-915c-1b8afa0c32df",
+                                    "id": "state_3a05cc7674a0",
                                     "type": "binary_operator",
+                                    "tier": 1,
                                     "text": "price - discount",
                                     "start": [
                                         5,
@@ -369,8 +395,9 @@
                                     ],
                                     "children": [
                                         {
-                                            "id": "506be172-e793-4fda-ae93-817d40497063",
+                                            "id": "state_3b223518df4e",
                                             "type": "identifier",
+                                            "tier": 1,
                                             "text": "price",
                                             "start": [
                                                 5,
@@ -383,8 +410,9 @@
                                             "children": []
                                         },
                                         {
-                                            "id": "ef38b1a9-3155-4bcb-99b1-267e46faf5a6",
+                                            "id": "state_4a3900c6c067",
                                             "type": "identifier",
+                                            "tier": 1,
                                             "text": "discount",
                                             "start": [
                                                 5,
@@ -405,8 +433,9 @@
             ]
         },
         {
-            "id": "a0cfa126-a305-422a-a0c1-daf1b07f6f48",
+            "id": "state_461c78d84f73",
             "type": "if_statement",
+            "tier": 2,
             "text": "if __name__ == \"__main__\":\n    final_price = apply_discount(200.0, True)\n    print(\"Final price:\", final_price)",
             "start": [
                 7,
@@ -418,8 +447,9 @@
             ],
             "children": [
                 {
-                    "id": "467eaf9e-8285-4240-9d93-6c1478755c34",
+                    "id": "state_0f2829b0e4cb",
                     "type": "comparison_operator",
+                    "tier": 2,
                     "text": "__name__ == \"__main__\"",
                     "start": [
                         7,
@@ -431,8 +461,9 @@
                     ],
                     "children": [
                         {
-                            "id": "cc5110e6-54b7-4ec5-9ef3-f055b6e631de",
+                            "id": "state_2f209a4cf76a",
                             "type": "identifier",
+                            "tier": 1,
                             "text": "__name__",
                             "start": [
                                 7,
@@ -445,8 +476,9 @@
                             "children": []
                         },
                         {
-                            "id": "56bc9a96-9b01-4bfd-a3b0-8aa548070859",
+                            "id": "state_345c89d25cb5",
                             "type": "string",
+                            "tier": 0,
                             "text": "\"__main__\"",
                             "start": [
                                 7,
@@ -458,8 +490,9 @@
                             ],
                             "children": [
                                 {
-                                    "id": "2d1653b6-6524-4349-9e3f-e5c955818b19",
+                                    "id": "state_ca97cb87270f",
                                     "type": "string_start",
+                                    "tier": 0,
                                     "text": "\"",
                                     "start": [
                                         7,
@@ -472,8 +505,9 @@
                                     "children": []
                                 },
                                 {
-                                    "id": "78ecfc2b-2c16-4a01-b263-3d7b678a9b1b",
+                                    "id": "state_3065eb2b9f26",
                                     "type": "string_content",
+                                    "tier": 0,
                                     "text": "__main__",
                                     "start": [
                                         7,
@@ -486,8 +520,9 @@
                                     "children": []
                                 },
                                 {
-                                    "id": "3cb76bb7-d9d1-43eb-a167-c67f15a1be6e",
+                                    "id": "state_ed26b3d4835e",
                                     "type": "string_end",
+                                    "tier": 0,
                                     "text": "\"",
                                     "start": [
                                         7,
@@ -504,8 +539,9 @@
                     ]
                 },
                 {
-                    "id": "44ad4d14-bf5f-4938-bbb8-a5c1808e1cea",
+                    "id": "state_13b9fee107c1",
                     "type": "block",
+                    "tier": 0,
                     "text": "final_price = apply_discount(200.0, True)\n    print(\"Final price:\", final_price)",
                     "start": [
                         8,
@@ -517,8 +553,9 @@
                     ],
                     "children": [
                         {
-                            "id": "5530e1eb-ec3f-49d7-a9a5-13d61bfe569f",
+                            "id": "state_4f030b96bf90",
                             "type": "expression_statement",
+                            "tier": 0,
                             "text": "final_price = apply_discount(200.0, True)",
                             "start": [
                                 8,
@@ -530,8 +567,9 @@
                             ],
                             "children": [
                                 {
-                                    "id": "3229fd5f-8ad7-459e-9509-c220e1ac93f8",
+                                    "id": "state_8982979f84da",
                                     "type": "assignment",
+                                    "tier": 1,
                                     "text": "final_price = apply_discount(200.0, True)",
                                     "start": [
                                         8,
@@ -543,8 +581,9 @@
                                     ],
                                     "children": [
                                         {
-                                            "id": "b5933be8-b035-4163-a352-975d444d4f47",
+                                            "id": "state_804efed227bc",
                                             "type": "identifier",
+                                            "tier": 1,
                                             "text": "final_price",
                                             "start": [
                                                 8,
@@ -557,8 +596,9 @@
                                             "children": []
                                         },
                                         {
-                                            "id": "f7c291d1-933c-44e9-81f9-db5b00d3f46b",
+                                            "id": "state_716efcb85fbd",
                                             "type": "call",
+                                            "tier": 0,
                                             "text": "apply_discount(200.0, True)",
                                             "start": [
                                                 8,
@@ -570,8 +610,9 @@
                                             ],
                                             "children": [
                                                 {
-                                                    "id": "4ca91d17-10c0-4aa3-bf9d-21be2ab7bcef",
+                                                    "id": "state_485da4d07936",
                                                     "type": "identifier",
+                                                    "tier": 1,
                                                     "text": "apply_discount",
                                                     "start": [
                                                         8,
@@ -584,8 +625,9 @@
                                                     "children": []
                                                 },
                                                 {
-                                                    "id": "560d3c34-038e-45e4-ab1a-766d446722cc",
+                                                    "id": "state_0cb2c24ba9e1",
                                                     "type": "argument_list",
+                                                    "tier": 0,
                                                     "text": "(200.0, True)",
                                                     "start": [
                                                         8,
@@ -597,8 +639,9 @@
                                                     ],
                                                     "children": [
                                                         {
-                                                            "id": "caf072aa-a8a8-4798-b40d-8f9549ceffd2",
+                                                            "id": "state_ee83318a390d",
                                                             "type": "float",
+                                                            "tier": 1,
                                                             "text": "200.0",
                                                             "start": [
                                                                 8,
@@ -611,8 +654,9 @@
                                                             "children": []
                                                         },
                                                         {
-                                                            "id": "c68ec95e-75f4-4067-b41e-9fa296c3a809",
+                                                            "id": "state_a1fe1071ec89",
                                                             "type": "true",
+                                                            "tier": 0,
                                                             "text": "True",
                                                             "start": [
                                                                 8,
@@ -633,8 +677,9 @@
                             ]
                         },
                         {
-                            "id": "b533a548-599c-45eb-a76c-7bb7cac45702",
+                            "id": "state_bedef8219ba8",
                             "type": "expression_statement",
+                            "tier": 0,
                             "text": "print(\"Final price:\", final_price)",
                             "start": [
                                 9,
@@ -646,8 +691,9 @@
                             ],
                             "children": [
                                 {
-                                    "id": "3b644c56-b29c-40e0-9f5e-62251bf85b3e",
+                                    "id": "state_7d6ff0b5f8ce",
                                     "type": "call",
+                                    "tier": 0,
                                     "text": "print(\"Final price:\", final_price)",
                                     "start": [
                                         9,
@@ -659,8 +705,9 @@
                                     ],
                                     "children": [
                                         {
-                                            "id": "7d1babee-c5b7-4338-bb0c-562145acee17",
+                                            "id": "state_4d200745ed44",
                                             "type": "identifier",
+                                            "tier": 1,
                                             "text": "print",
                                             "start": [
                                                 9,
@@ -673,8 +720,9 @@
                                             "children": []
                                         },
                                         {
-                                            "id": "d4d36190-1d7c-4923-9117-d01100229a0a",
+                                            "id": "state_2bb4fee784ff",
                                             "type": "argument_list",
+                                            "tier": 0,
                                             "text": "(\"Final price:\", final_price)",
                                             "start": [
                                                 9,
@@ -686,8 +734,9 @@
                                             ],
                                             "children": [
                                                 {
-                                                    "id": "c00747fb-fedb-4cab-b812-34df0d36a7d5",
+                                                    "id": "state_010fdabdf5f6",
                                                     "type": "string",
+                                                    "tier": 0,
                                                     "text": "\"Final price:\"",
                                                     "start": [
                                                         9,
@@ -699,8 +748,9 @@
                                                     ],
                                                     "children": [
                                                         {
-                                                            "id": "74f2fe3d-37db-4c50-8bfb-cdf4db402208",
+                                                            "id": "state_2636cc2a2cc7",
                                                             "type": "string_start",
+                                                            "tier": 0,
                                                             "text": "\"",
                                                             "start": [
                                                                 9,
@@ -713,8 +763,9 @@
                                                             "children": []
                                                         },
                                                         {
-                                                            "id": "ba81b4c4-74e6-4dc2-a2b9-65b10a829fb4",
+                                                            "id": "state_a08350dbce1e",
                                                             "type": "string_content",
+                                                            "tier": 0,
                                                             "text": "Final price:",
                                                             "start": [
                                                                 9,
@@ -727,8 +778,9 @@
                                                             "children": []
                                                         },
                                                         {
-                                                            "id": "b35c3528-8fdc-4c4e-9ea2-1fe0e977c976",
+                                                            "id": "state_b702dc5e74fe",
                                                             "type": "string_end",
+                                                            "tier": 0,
                                                             "text": "\"",
                                                             "start": [
                                                                 9,
@@ -743,8 +795,9 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "eddfe677-d769-4134-acae-c2f911adba26",
+                                                    "id": "state_6438f98f3afb",
                                                     "type": "identifier",
+                                                    "tier": 1,
                                                     "text": "final_price",
                                                     "start": [
                                                         9,
