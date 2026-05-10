@@ -1,0 +1,605 @@
+{
+    "id": "state_c940c2089827",
+    "type": "module",
+    "tier": 0,
+    "text": "def calculate_total(price, tax_rate):\n    return price + (price * tax_rate)\n\nif __name__ == \"__main__\":\n    result = calculate_total(100.0, 0.15)\n    print(\"Total:\", result)\n",
+    "start": [
+        0,
+        0
+    ],
+    "end": [
+        6,
+        0
+    ],
+    "children": [
+        {
+            "id": "state_7967f5b65946",
+            "type": "function_definition",
+            "tier": 0,
+            "text": "def calculate_total(price, tax_rate):\n    return price + (price * tax_rate)",
+            "start": [
+                0,
+                0
+            ],
+            "end": [
+                1,
+                37
+            ],
+            "children": [
+                {
+                    "id": "state_07bc8c422794",
+                    "type": "identifier",
+                    "tier": 1,
+                    "text": "calculate_total",
+                    "start": [
+                        0,
+                        4
+                    ],
+                    "end": [
+                        0,
+                        19
+                    ],
+                    "children": []
+                },
+                {
+                    "id": "state_62f1659d0c8e",
+                    "type": "parameters",
+                    "tier": 0,
+                    "text": "(price, tax_rate)",
+                    "start": [
+                        0,
+                        19
+                    ],
+                    "end": [
+                        0,
+                        36
+                    ],
+                    "children": [
+                        {
+                            "id": "state_980374588c94",
+                            "type": "identifier",
+                            "tier": 1,
+                            "text": "price",
+                            "start": [
+                                0,
+                                20
+                            ],
+                            "end": [
+                                0,
+                                25
+                            ],
+                            "children": []
+                        },
+                        {
+                            "id": "state_9a030ef51678",
+                            "type": "identifier",
+                            "tier": 1,
+                            "text": "tax_rate",
+                            "start": [
+                                0,
+                                27
+                            ],
+                            "end": [
+                                0,
+                                35
+                            ],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "state_f97bdab2fd12",
+                    "type": "block",
+                    "tier": 0,
+                    "text": "return price + (price * tax_rate)",
+                    "start": [
+                        1,
+                        4
+                    ],
+                    "end": [
+                        1,
+                        37
+                    ],
+                    "children": [
+                        {
+                            "id": "state_340ddc48f057",
+                            "type": "return_statement",
+                            "tier": 1,
+                            "text": "return price + (price * tax_rate)",
+                            "start": [
+                                1,
+                                4
+                            ],
+                            "end": [
+                                1,
+                                37
+                            ],
+                            "children": [
+                                {
+                                    "id": "state_a07ed10e5013",
+                                    "type": "binary_operator",
+                                    "tier": 1,
+                                    "text": "price + (price * tax_rate)",
+                                    "start": [
+                                        1,
+                                        11
+                                    ],
+                                    "end": [
+                                        1,
+                                        37
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "state_11b8e7b7a9c6",
+                                            "type": "identifier",
+                                            "tier": 1,
+                                            "text": "price",
+                                            "start": [
+                                                1,
+                                                11
+                                            ],
+                                            "end": [
+                                                1,
+                                                16
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "state_201efda3bdfe",
+                                            "type": "parenthesized_expression",
+                                            "tier": 0,
+                                            "text": "(price * tax_rate)",
+                                            "start": [
+                                                1,
+                                                19
+                                            ],
+                                            "end": [
+                                                1,
+                                                37
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "state_250189dd335a",
+                                                    "type": "binary_operator",
+                                                    "tier": 1,
+                                                    "text": "price * tax_rate",
+                                                    "start": [
+                                                        1,
+                                                        20
+                                                    ],
+                                                    "end": [
+                                                        1,
+                                                        36
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "state_2b21a1ac1ab2",
+                                                            "type": "identifier",
+                                                            "tier": 1,
+                                                            "text": "price",
+                                                            "start": [
+                                                                1,
+                                                                20
+                                                            ],
+                                                            "end": [
+                                                                1,
+                                                                25
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "state_8312433d155b",
+                                                            "type": "identifier",
+                                                            "tier": 1,
+                                                            "text": "tax_rate",
+                                                            "start": [
+                                                                1,
+                                                                28
+                                                            ],
+                                                            "end": [
+                                                                1,
+                                                                36
+                                                            ],
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "state_85a57fc8456e",
+            "type": "if_statement",
+            "tier": 2,
+            "text": "if __name__ == \"__main__\":\n    result = calculate_total(100.0, 0.15)\n    print(\"Total:\", result)",
+            "start": [
+                3,
+                0
+            ],
+            "end": [
+                5,
+                27
+            ],
+            "children": [
+                {
+                    "id": "state_496f835d3d0c",
+                    "type": "comparison_operator",
+                    "tier": 2,
+                    "text": "__name__ == \"__main__\"",
+                    "start": [
+                        3,
+                        3
+                    ],
+                    "end": [
+                        3,
+                        25
+                    ],
+                    "children": [
+                        {
+                            "id": "state_12873b9ec858",
+                            "type": "identifier",
+                            "tier": 1,
+                            "text": "__name__",
+                            "start": [
+                                3,
+                                3
+                            ],
+                            "end": [
+                                3,
+                                11
+                            ],
+                            "children": []
+                        },
+                        {
+                            "id": "state_3b15c1c55b7a",
+                            "type": "string",
+                            "tier": 0,
+                            "text": "\"__main__\"",
+                            "start": [
+                                3,
+                                15
+                            ],
+                            "end": [
+                                3,
+                                25
+                            ],
+                            "children": [
+                                {
+                                    "id": "state_1d93f1bd2023",
+                                    "type": "string_start",
+                                    "tier": 0,
+                                    "text": "\"",
+                                    "start": [
+                                        3,
+                                        15
+                                    ],
+                                    "end": [
+                                        3,
+                                        16
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "id": "state_24a544eace08",
+                                    "type": "string_content",
+                                    "tier": 0,
+                                    "text": "__main__",
+                                    "start": [
+                                        3,
+                                        16
+                                    ],
+                                    "end": [
+                                        3,
+                                        24
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "id": "state_02876f83ffb5",
+                                    "type": "string_end",
+                                    "tier": 0,
+                                    "text": "\"",
+                                    "start": [
+                                        3,
+                                        24
+                                    ],
+                                    "end": [
+                                        3,
+                                        25
+                                    ],
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "state_a44a9e86c0e9",
+                    "type": "block",
+                    "tier": 0,
+                    "text": "result = calculate_total(100.0, 0.15)\n    print(\"Total:\", result)",
+                    "start": [
+                        4,
+                        4
+                    ],
+                    "end": [
+                        5,
+                        27
+                    ],
+                    "children": [
+                        {
+                            "id": "state_50957b4cb489",
+                            "type": "expression_statement",
+                            "tier": 0,
+                            "text": "result = calculate_total(100.0, 0.15)",
+                            "start": [
+                                4,
+                                4
+                            ],
+                            "end": [
+                                4,
+                                41
+                            ],
+                            "children": [
+                                {
+                                    "id": "state_3696efb2b858",
+                                    "type": "assignment",
+                                    "tier": 1,
+                                    "text": "result = calculate_total(100.0, 0.15)",
+                                    "start": [
+                                        4,
+                                        4
+                                    ],
+                                    "end": [
+                                        4,
+                                        41
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "state_8e14ce3923d0",
+                                            "type": "identifier",
+                                            "tier": 1,
+                                            "text": "result",
+                                            "start": [
+                                                4,
+                                                4
+                                            ],
+                                            "end": [
+                                                4,
+                                                10
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "state_83f9b9c3037f",
+                                            "type": "call",
+                                            "tier": 0,
+                                            "text": "calculate_total(100.0, 0.15)",
+                                            "start": [
+                                                4,
+                                                13
+                                            ],
+                                            "end": [
+                                                4,
+                                                41
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "state_d718c1df55eb",
+                                                    "type": "identifier",
+                                                    "tier": 1,
+                                                    "text": "calculate_total",
+                                                    "start": [
+                                                        4,
+                                                        13
+                                                    ],
+                                                    "end": [
+                                                        4,
+                                                        28
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "id": "state_e7bb865213ef",
+                                                    "type": "argument_list",
+                                                    "tier": 0,
+                                                    "text": "(100.0, 0.15)",
+                                                    "start": [
+                                                        4,
+                                                        28
+                                                    ],
+                                                    "end": [
+                                                        4,
+                                                        41
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "state_74a364061ed1",
+                                                            "type": "float",
+                                                            "tier": 1,
+                                                            "text": "100.0",
+                                                            "start": [
+                                                                4,
+                                                                29
+                                                            ],
+                                                            "end": [
+                                                                4,
+                                                                34
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "state_41e3d463406b",
+                                                            "type": "float",
+                                                            "tier": 1,
+                                                            "text": "0.15",
+                                                            "start": [
+                                                                4,
+                                                                36
+                                                            ],
+                                                            "end": [
+                                                                4,
+                                                                40
+                                                            ],
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "state_c6a73255ef1a",
+                            "type": "expression_statement",
+                            "tier": 0,
+                            "text": "print(\"Total:\", result)",
+                            "start": [
+                                5,
+                                4
+                            ],
+                            "end": [
+                                5,
+                                27
+                            ],
+                            "children": [
+                                {
+                                    "id": "state_cf8665065643",
+                                    "type": "call",
+                                    "tier": 0,
+                                    "text": "print(\"Total:\", result)",
+                                    "start": [
+                                        5,
+                                        4
+                                    ],
+                                    "end": [
+                                        5,
+                                        27
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "state_3953d1087c9a",
+                                            "type": "identifier",
+                                            "tier": 1,
+                                            "text": "print",
+                                            "start": [
+                                                5,
+                                                4
+                                            ],
+                                            "end": [
+                                                5,
+                                                9
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "state_cb6c0a7fb560",
+                                            "type": "argument_list",
+                                            "tier": 0,
+                                            "text": "(\"Total:\", result)",
+                                            "start": [
+                                                5,
+                                                9
+                                            ],
+                                            "end": [
+                                                5,
+                                                27
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "state_2cb5c6adfcc2",
+                                                    "type": "string",
+                                                    "tier": 0,
+                                                    "text": "\"Total:\"",
+                                                    "start": [
+                                                        5,
+                                                        10
+                                                    ],
+                                                    "end": [
+                                                        5,
+                                                        18
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "state_62d64387d65f",
+                                                            "type": "string_start",
+                                                            "tier": 0,
+                                                            "text": "\"",
+                                                            "start": [
+                                                                5,
+                                                                10
+                                                            ],
+                                                            "end": [
+                                                                5,
+                                                                11
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "state_3de7bf81b3d8",
+                                                            "type": "string_content",
+                                                            "tier": 0,
+                                                            "text": "Total:",
+                                                            "start": [
+                                                                5,
+                                                                11
+                                                            ],
+                                                            "end": [
+                                                                5,
+                                                                17
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "state_a860b581ad61",
+                                                            "type": "string_end",
+                                                            "tier": 0,
+                                                            "text": "\"",
+                                                            "start": [
+                                                                5,
+                                                                17
+                                                            ],
+                                                            "end": [
+                                                                5,
+                                                                18
+                                                            ],
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "state_1cb60fdddb20",
+                                                    "type": "identifier",
+                                                    "tier": 1,
+                                                    "text": "result",
+                                                    "start": [
+                                                        5,
+                                                        20
+                                                    ],
+                                                    "end": [
+                                                        5,
+                                                        26
+                                                    ],
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
