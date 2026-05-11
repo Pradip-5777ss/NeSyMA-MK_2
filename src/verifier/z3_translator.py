@@ -110,6 +110,9 @@ class Z3Translator:
                 left_expr = self._eval_expr(left_node)
                 right_expr = self._eval_expr(right_node)
                 
+                if left_expr is None or right_expr is None:
+                    return None
+                
                 # Find the operator robustly
                 left_text = left_node.get("text", "")
                 right_text = right_node.get("text", "")
