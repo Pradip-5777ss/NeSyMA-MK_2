@@ -6,3 +6,4 @@ __pycache__/
 .vscode/
 data/exports/
 .env
+data/temp_repo/

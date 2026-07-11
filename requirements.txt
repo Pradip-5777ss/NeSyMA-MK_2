@@ -3,6 +3,8 @@ certifi==2026.4.22
 cffi==2.0.0
 charset-normalizer==3.4.7
 cryptography==48.0.0
+gitdb==4.0.12
+GitPython==3.1.50
 google-ai-generativelanguage==0.6.15
 google-api-core==2.25.2
 google-api-python-client==2.196.0
@@ -29,6 +31,7 @@ pyparsing==3.3.2
 pytest==9.0.3
 python-dotenv==1.2.2
 requests==2.33.1
+smmap==5.0.3
 tqdm==4.67.3
 tree-sitter==0.25.2
 tree-sitter-python==0.25.0
@@ -37,3 +40,4 @@ typing_extensions==4.15.0
 uritemplate==4.2.0
 urllib3==2.7.0
 z3-solver==4.16.0.0
+matplotlib==3.11.0

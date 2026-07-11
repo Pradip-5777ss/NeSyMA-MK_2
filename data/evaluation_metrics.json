@@ -1,30 +1,9 @@
 [
     {
-        "file": "data/calc_1.py",
-        "total_attempts_needed": 3,
-        "llm_generation_time_ms": 0,
-        "z3_verification_time_ms": 0,
-        "final_status": "Failed"
-    },
-    {
-        "file": "data/calc_1.py",
-        "total_attempts_needed": 3,
-        "llm_generation_time_ms": 0,
-        "z3_verification_time_ms": 0,
-        "final_status": "Failed"
-    },
-    {
-        "file": "data/calc_1.py",
-        "total_attempts_needed": 3,
-        "llm_generation_time_ms": 0,
-        "z3_verification_time_ms": 0,
-        "final_status": "Failed"
-    },
-    {
-        "file": "data/calc_1.py",
+        "file": "/Users/Personal/Antigravity/NeSyMA-MK_2/data/temp_repo/calc.py",
         "total_attempts_needed": 1,
-        "llm_generation_time_ms": 10386.512041091919,
-        "z3_verification_time_ms": 27.70209312438965,
+        "llm_generation_time_ms": 5284.86704826355,
+        "z3_verification_time_ms": 32.70697593688965,
         "final_status": "Success"
     }
 ]
